@@ -110,17 +110,21 @@
 }
 
 .partners_logo img{
-height: 30vh;
-box-shadow: 1px 1px 15px rgb(189, 189, 189);
-padding: 10px;
-border-radius: 3% / 40px;
+  height: 26vh;
+  width: auto;
+  box-shadow: 1px 1px 10px rgb(189 189 189);
+  padding: 15px;
+  border-radius: 3% / 40px;
+  margin: auto;
 }
 
 .workshop_pics img{
-height: 43vh;
-box-shadow: 1px 1px 8px rgb(230, 225, 225);
-padding: 10px;
-border-radius: 1vh;
+  height: 36vh;
+  width: auto;
+  box-shadow: 1px 1px 10px rgb(189 189 189);
+  padding: 15px;
+  border-radius: 3% / 40px;
+  margin: auto;
 }
 
 .exhibition_pics img{
@@ -161,7 +165,7 @@ border-radius: 1vh;
 }
 
 .envelope::before{
-  content: 'SHAASTRA 2023';
+  content: 'TESTIMONIALS';
   min-height: 50vh;
   height: 50vh;
   text-align: center;
@@ -421,10 +425,12 @@ border-radius: 1vh;
 
   .headers{
     font-size: 5vh;
+    padding: 5vh;
   }
 
   .content1 p, .content2 p{
     padding: 4vh;
+    font-size: 2.5vh;
   }
 
   .i1{
@@ -434,6 +440,7 @@ border-radius: 1vh;
 
   .partners_logo img{
     height: 16vh;
+    border-radius: 0;
   }
 
   .workshop_pics img{
@@ -458,7 +465,32 @@ border-radius: 1vh;
 
   .card1, .card2, .card3, .card4{
     width: 80vw;
-    padding: 20px;
-    --i : 35px; 
+    padding: 18px;
+    --i : 32px; 
+    font-size: 2vh;
+  }
+
+  .card1{
+    --i : 29px;
+  }
+
+  .card2{
+    --i : 30px;
+  }
+
+  .card3{
+    --i : 31px;
+  }
+
+  .card4{
+    --i : 31px
+  }
+
+  .card2:hover{
+    transform: translateY(calc(var(--i)*(-4)));
+  }
+
+  .card1:hover{
+    transform: translateY(calc(var(--i)*(7.5)));
   }
 }
