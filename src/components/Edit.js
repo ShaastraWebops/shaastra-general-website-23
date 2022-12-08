@@ -13,6 +13,16 @@ const Edit = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [imageUrl, setImageUrl] = useState(require("./cardimg.png"));
   const [initial, setInitial] = useState(true);
+  const [event, setEvent] = useState({
+    name: "",
+    participation: "",
+    desc: "",
+    regStart: "",
+    regEnd: "",
+    evStart: "",
+    evEnd: "",
+    fee: "",
+  });
 
   useEffect(() => {
     if (selectedImage) {
@@ -57,7 +67,12 @@ const Edit = () => {
                   Add new name
                 </label>
                 <br />
-                <input type="text" id="name" />
+                <input
+                  type="text"
+                  id="name"
+                  value={event.name}
+                  onChange={(e) => setEvent({ ...event, name: e.target.value })}
+                />
               </div>
               <Spacer />
               <div className="field-group">
@@ -65,7 +80,14 @@ const Edit = () => {
                   Participation
                 </label>
                 <br />
-                <input type="text" id="participation" />
+                <input
+                  type="text"
+                  id="participation"
+                  value={event.participation}
+                  onChange={(e) =>
+                    setEvent({ ...event, participation: e.target.value })
+                  }
+                />
               </div>
               <Spacer />
             </Flex>
@@ -74,7 +96,11 @@ const Edit = () => {
                 Add new description
               </label>
               <br />
-              <Textarea id="add-new-desc" />
+              <Textarea
+                id="add-new-desc"
+                value={event.desc}
+                onChange={(e) => setEvent({ ...event, desc: e.target.value })}
+              />
             </div>
             <Flex className="edit-first-row">
               <Spacer />
@@ -83,7 +109,14 @@ const Edit = () => {
                   Registration Start
                 </label>
                 <br />
-                <input type="date" id="reg-start" />
+                <input
+                  type="date"
+                  id="reg-start"
+                  value={event.regStart}
+                  onChange={(e) =>
+                    setEvent({ ...event, regStart: e.target.value })
+                  }
+                />
               </div>
               <Spacer />
               <div className="field-group">
@@ -91,7 +124,14 @@ const Edit = () => {
                   Registration End
                 </label>
                 <br />
-                <input type="date" id="reg-end" />
+                <input
+                  type="date"
+                  id="reg-end"
+                  value={event.regEnd}
+                  onChange={(e) =>
+                    setEvent({ ...event, regEnd: e.target.value })
+                  }
+                />
               </div>
               <Spacer />
             </Flex>
@@ -102,7 +142,14 @@ const Edit = () => {
                   Event Start
                 </label>
                 <br />
-                <input type="date" id="ev-start" />
+                <input
+                  type="date"
+                  id="ev-start"
+                  value={event.evStart}
+                  onChange={(e) =>
+                    setEvent({ ...event, evStart: e.target.value })
+                  }
+                />
               </div>
               <Spacer />
               <div className="field-group">
@@ -110,7 +157,14 @@ const Edit = () => {
                   Event End
                 </label>
                 <br />
-                <input type="date" id="ev-end" />
+                <input
+                  type="date"
+                  id="ev-end"
+                  value={event.evEnd}
+                  onChange={(e) =>
+                    setEvent({ ...event, evEnd: e.target.value })
+                  }
+                />
               </div>
               <Spacer />
             </Flex>
@@ -121,11 +175,16 @@ const Edit = () => {
                   Registration Fee
                 </label>
                 <br />
-                <input type="text" id="reg-fee" />
+                <input
+                  type="text"
+                  id="reg-fee"
+                  value={event.fee}
+                  onChange={(e) => setEvent({ ...event, fee: e.target.value })}
+                />
               </div>
               <Spacer />
             </Flex>
-            <Button>Confirm</Button>
+            <Button onClick={() => console.log(event)}>Confirm</Button>
           </div>
         </div>
       </div>
