@@ -103,13 +103,13 @@ const Events = () => {
                     </div>
                 </div></SwiperSlide>
             </Swiper>
-            <a href="/footer" className='events-btn'>
+            {/* <a href="/footer" className='events-btn'>
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 Footer
-            </a>
+            </a> */}
         </div>
     )
 }

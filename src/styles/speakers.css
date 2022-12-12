@@ -1,5 +1,5 @@
 .speakers-cont {
-    background: linear-gradient(to right, #2c5364, #0f2027);
+    background-color: black;
     height: 100vh;
     display: flex;
     justify-content: space-around;

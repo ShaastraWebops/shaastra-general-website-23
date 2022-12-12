@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* .events-cont {
     position: relative;
     display: flex;
@@ -132,7 +133,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#414141, #000000);
+    background: black;
     flex-wrap: wrap;
 }
 

@@ -1,23 +1,32 @@
 import './App.css';
+import Home from './components/Home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Theme from './components/Theme';
+import Countdown from './components/Countdown';
 import About from './components/About';
 import Events from './components/Events';
 import Speakers from './components/Speakers';
 import Footer from './components/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
+    <div>
     <BrowserRouter>
       <Routes>
-        <Route path="/about" element={<About />} />
+      <Route path="/Home" element={<Home />} />
+        {/* <Route path="/about" element={<About />} />
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/footer" element={<Footer />} />
+        <Route path="/footer" element={<Footer />} /> */}
       </Routes>
     </BrowserRouter>
-    // <About />
-    // <Events />
-    // <Speakers />
-    // <Footer />
+    <Theme />
+    <Countdown />
+    <About />
+    <Speakers />
+    <Events />
+    <Footer />
+    </div>
   );
 }
 

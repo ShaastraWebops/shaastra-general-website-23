@@ -1,7 +1,37 @@
 .App {
   text-align: center;
 }
-
+.Home{
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: end;
+  
+}
+.countdown{
+  align-items: center;
+  padding-top: 5vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 3.5vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flexcount{
+  display: flex;
+  flex-direction: row;
+}
+.uk-countdown-separator{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.about-img {
+  height: 20vh;
+  display: block;
+  opacity: 0;
+  animation: ani2 0.75s ease-out 0.5s forwards;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

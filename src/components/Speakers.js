@@ -64,13 +64,13 @@ const Speakers = () => {
                         </div></span>
                 </div>
             </div>
-            <a href="/events" className='events-btn'>
+            {/* <a href="/events" className='events-btn'>
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 Events
-            </a>
+            </a> */}
         </div>
     )
 }
