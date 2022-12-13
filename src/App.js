@@ -1,5 +1,6 @@
 import Login from "./Components/login";
 import Signup from "./Components/signup";
+import Schedule from "./Components/schedule";
 import './App.css';
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
 					<link rel="stylesheet" href="/static/styles/styles.css" />
 					<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" />
 				</header>
-				<Login />
+				<Login />	
 				<Signup />
+				<Schedule />
 	</div>
 
   );
