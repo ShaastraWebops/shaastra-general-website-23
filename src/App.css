@@ -15,6 +15,10 @@
   font-family: 'Rubik', sans-serif;
 }
 
+.App img{
+  width: 15vw;
+}
+
 .content{
   width: fit-content;
   margin: auto;
@@ -79,6 +83,10 @@
   .App{
     height: 190vh;
     width: 190vw;
+    padding-left: 10vw;
+  }
+  .App img{
+    width: 30vw;
   }
 
   .content{
