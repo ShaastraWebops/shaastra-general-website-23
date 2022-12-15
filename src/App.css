@@ -1,3 +1,9 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 .h1{
   font-size: 10vh;
   margin: auto;
@@ -42,6 +48,9 @@
   animation: typewriter 4s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms infinite;
 }
+.App{
+  overflow: hidden;
+}
 
 @keyframes typewriter {
   from {
@@ -61,14 +70,14 @@
 }
 
 
-@media screen and (max-width : 900px) {
+@media screen and (max-width : 1000px) {
   .App{
-    height: 190vh;
-    width: 190vw;
+    height: 100vh;
+    width: 100vw;
   }
 
   .content{
-    padding-top: 73vh;
+    padding-top: 40vh;
   }
 
   .h1, .h3{
@@ -78,11 +87,14 @@
   .h1{
     font-size: 7vh;
   }
+  .h3{
+    font-size: 4vh;
+  }
 }
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 500px) {
   .App{
-    height: 190vh;
-    width: 190vw;
+    height: 100vh;
+    width: 100vw;
     padding-left: 10vw;
   }
   .App img{
@@ -90,7 +102,8 @@
   }
 
   .content{
-    padding-top: 73vh;
+    padding-top: 40vh;
+    overflow: hidden;
   }
 
   .h1, .h3{
@@ -98,6 +111,9 @@
   }
 
   .h1{
-    font-size: 11vh;
+    font-size: 10vw;
+  }
+  .h3{
+    font-size: 7vw;
   }
 }
