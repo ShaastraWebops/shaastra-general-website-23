@@ -96,6 +96,7 @@ const Edit = () => {
     runner_up_points: data ? parseInt(data.getEvent.secondplace) : 0,
     third_pos_points: data ? parseInt(data.getEvent.thirdplace) : 0,
     requirements: data ? data.getEvent.requirements : "",
+    pic: "",
   });
   console.log(data);
   console.log(event);
@@ -119,6 +120,7 @@ const Edit = () => {
       third_pos_points: data ? parseInt(data.getEvent.thirdplace) : 0,
       requirements: data ? data.getEvent.requirements : "",
     });
+    setContainer(data.getEvent.pic);
   }, [data]);
 
   useEffect(() => {
@@ -256,7 +258,7 @@ const Edit = () => {
                         Key: selectedImage.name,
                         ContentType: selectedImage.type,
                         Body: selectedImage,
-                        Permissions: "Public",
+                        ACL: "public-read",
                       };
                       await s3.upload(s3params).promise();
                     } catch (error) {
