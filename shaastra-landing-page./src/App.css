@@ -45,11 +45,11 @@
 
 .icon {
     text-align: center;
-    background: #FFFFFF;
     margin-top: 200px;
-    filter: invert(100%);
     height: 70px;
     width: 70px;
+    filter: invert(100%);
+    cursor: pointer;
 }
 
 .bg2 {

@@ -12,7 +12,7 @@ function App() {
               <div class="register-now">
                   <button id="button">Register Now</button>
               </div>
-              <BsChevronDown class="icon" />
+              <BsChevronDown class="icon"/>
           </div>
           
           <div class="bg2">
