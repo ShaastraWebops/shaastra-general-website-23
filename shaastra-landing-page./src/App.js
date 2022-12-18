@@ -12,10 +12,10 @@ function App() {
               <div class="register-now">
                   <button id="button">Register Now</button>
               </div>
-              <BsChevronDown class="icon"/>
+              <a href="#bg2"><BsChevronDown class="icon"/></a>
           </div>
           
-          <div class="bg2">
+          <div class="bg2" id="bg2">
               <div class="blur1"></div>
               <div class="heading2">
                   ABOUT US
