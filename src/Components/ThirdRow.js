@@ -34,7 +34,7 @@ const ThirdRow = ({
   setsubButtonText,
 }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState("AEROFEST");
 
   const handleClose = async (e) => {
     e.preventDefault();
@@ -71,7 +71,6 @@ const ThirdRow = ({
           <ModalBody>
             <RadioGroup onChange={setValue} value={value}>
               <Stack direction="column">
-                <Radio value="">None</Radio>
                 <Radio value="AEROFEST">AeroFest</Radio>
                 <Radio value="BIOGEN">Biogen</Radio>
                 <Radio value="BEVENTS">BEvents</Radio>
@@ -89,12 +88,8 @@ const ThirdRow = ({
               colorScheme="blue"
               mr={3}
               onClick={(e) => {
-                setFilter(value);
-                if (!value) {
-                  setButtonText("Add Filter");
-                } else {
-                  setButtonText(value);
-                }
+                setFilter(true);
+                setButtonText(value);
                 handleClose(e);
               }}
             >

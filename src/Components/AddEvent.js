@@ -128,7 +128,7 @@ const Add = () => {
         <Modal isOpen={true} onClose={onClose}>
           <ModalOverlay />
           <ModalContent backgroundColor="#addfd0" color="black">
-            <ModalHeader>Event Added</ModalHeader>
+            <ModalHeader>Item Added</ModalHeader>
             <ModalCloseButton />
           </ModalContent>
         </Modal>
@@ -139,7 +139,7 @@ const Add = () => {
   return (
     <ChakraProvider>
       <div className="edit-page-main-container">
-        <div className="heading">Add Event</div>
+        <div className="heading">Add Item</div>
         <div className="fields-container">
           <div className="container-right">
             {imageUrl && selectedImage && (

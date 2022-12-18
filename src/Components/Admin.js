@@ -35,11 +35,10 @@ const GET_EVENTS = gql`
 function EditEvents() {
   const [search, setSearch] = useState("");
   var { isOpen, onOpen, onClose } = useDisclosure();
-  const vertical = "";
+  const vertical = "AEROFEST";
   const navigate = useNavigate();
-  const [filtered, setFiltered] = useState("");
-  const [buttonText, setButtonText] = useState("Add Filter");
-  const [subbuttonText, setsubButtonText] = useState("Events");
+  const [filtered, setFiltered] = useState(false);
+  const [buttonText, setButtonText] = useState("AEROFEST");
   const [eorw, seteorw] = useState("Events");
   // console.log(window.innerWidth);
 
@@ -170,7 +169,13 @@ function EditEvents() {
 
   return (
     <ChakraProvider className="App">
-      <div onLoad={() => refetch({ filter: "" })}>
+      <div
+        onLoad={() => {
+          if (!filtered) {
+            refetch({ filter: "AEROFEST" });
+          }
+        }}
+      >
         <Flex
           minWidth="100%"
           backgroundImage={bg}
@@ -178,15 +183,7 @@ function EditEvents() {
           flexDirection="column"
         >
           {/* <Navbar /> */}
-          <SecondRow
-            eorw={eorw}
-            seteorw={seteorw}
-            refetch={refetch}
-            buttonText={setButtonText}
-            setButtonText={setButtonText}
-            subbuttonText={subbuttonText}
-            setsubButtonText={setsubButtonText}
-          />
+          <SecondRow />
           <ThirdRow
             search={search}
             setSearch={setSearch}
@@ -195,8 +192,6 @@ function EditEvents() {
             refetch={refetch}
             buttonText={buttonText}
             setButtonText={setButtonText}
-            subbuttonText={subbuttonText}
-            setsubButtonText={setsubButtonText}
           />
           <SimpleGrid className="item-grid" spacing={2}>
             {searchedEvents.map((event, index) => {
@@ -210,6 +205,8 @@ function EditEvents() {
                     id={event.id}
                     pic={event.pic}
                     refetch={refetch}
+                    filter={filtered}
+                    setFiltered={setFiltered}
                   />
                 </div>
               );

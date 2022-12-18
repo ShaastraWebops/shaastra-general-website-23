@@ -20,6 +20,8 @@ const CardTemplate = ({
   id,
   refetch,
   pic,
+  filter,
+  setFilter,
 }) => {
   const [deleteEvent] = useMutation(DELETE_EVENT);
   const handleDelete = async (e) => {
@@ -55,6 +57,7 @@ const CardTemplate = ({
         <Box>
           <Button
             onClick={() => {
+              // setFilter(false);
               navigate(`/admin/edit/${id}`);
             }}
           >

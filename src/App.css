@@ -155,6 +155,7 @@ h2 {
     border-radius: 10.63px;
     border-style: solid;
     border-width: 1.5px;
+    margin-top: 5px;
     padding: 12px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -246,6 +247,25 @@ h2 {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 10px;
+  }
+  .second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .add-event-container {
+    background: radial-gradient(95.22% 1377.16% at 4.78% 18.18%, rgba(217, 217, 217, 0.8) 0%, rgba(217, 217, 217, 0.5) 100%);
+    border-color: #FFFFFF;
+    border-radius: 10.63px;
+    border-style: solid;
+    border-width: 1.5px;
+    margin-top: 10px;
+    padding: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
   }
 }
 

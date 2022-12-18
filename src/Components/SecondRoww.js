@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HStack, Text, Flex, Spacer } from "@chakra-ui/react";
 import "../App.css";
-import { BsArrowBarRight } from "react-icons/bs";
+import { BsArrowBarLeft } from "react-icons/bs";
 import { AiOutlinePlus, AiOutlineLogout } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 import { useMutation, gql } from "@apollo/client";
@@ -20,22 +20,22 @@ const SecondRow = () => {
     navigate("/admin/addevent");
   };
   const handleVisit = () => {
-    navigate("/admin/workshops");
+    navigate("/admin");
   };
 
   return (
     <Flex className="second-row">
       <button className="third-row-buttons" onClick={() => handleVisit()}>
         <HStack alignItems="center" className="events-workshops-filter">
-          <BsArrowBarRight color="#FFFFFF" size="2rem" />
-          <Text className="main-filter-text">Workshops</Text>
+          <BsArrowBarLeft color="#FFFFFF" size="2rem" />
+          <Text className="main-filter-text">Events</Text>
         </HStack>
       </button>
       <Spacer />
       <button onClick={handleAdd} className="third-row-buttons">
         <HStack alignItems="center" className="add-event-container">
           <AiOutlinePlus color="#000000" size="2rem" />
-          <Text className="add-event">Add Event</Text>
+          <Text className="add-event">Add Workshop</Text>
         </HStack>
       </button>
       <Spacer />
