@@ -101,23 +101,23 @@ export const items = [
         title: 'Passport',
         url:'https://sales.shaastra.org/passport',
     },
+    // {
+    //     id: 6,
+    //     title: 'Accommodation',
+    //     url:'https://hospitality.shaastra.org',
+    // },
     {
         id: 6,
-        title: 'Accommodation',
-        url:'https://hospitality.shaastra.org',
-    },
-    {
-        id: 7,
         title: 'Sponsors',
         url:'/sponsors',
     },
     {
-        id: 8,
+        id: 7,
         title: 'Team',
         url:'/team',
     },
     {
-        id: 9,
+        id: 8,
         title: 'Contact Us',
         url:'/contact',
     }
