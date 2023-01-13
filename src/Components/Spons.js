@@ -69,7 +69,7 @@ const Spons = () => {
                             <img src={img1} alt="" />
                             <h2 class="title">Title Sponsor</h2>
                         </div></a>
-                        <a href="https://www.wellsfargo.com/"><div className="slide">
+                        <a href="https://www.wellsfargo.com/about/careers/"><div className="slide">
                             <img src={wellsfargo} alt="" />
                             <h2 class="title">Platinum Sponsor</h2>
                         </div></a>
