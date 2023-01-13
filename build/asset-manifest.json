@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ce0a115.css",
-    "main.js": "/static/js/main.d0ba6789.js",
+    "main.css": "/static/css/main.5dac1a75.css",
+    "main.js": "/static/js/main.2e1b9162.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
     "static/media/IMG20221019113455.jpg": "/static/media/IMG20221019113455.78bd208df78d76c78eed.jpg",
@@ -40,10 +40,10 @@
     "static/media/FTL.jpg": "/static/media/FTL.c956e7baf0f46868572e.jpg",
     "static/media/qms_rupa.jpg": "/static/media/qms_rupa.131c682643562eb44fad.jpg",
     "static/media/webops_krithikaa.jpeg": "/static/media/webops_krithikaa.d963c9091d931c880657.jpeg",
+    "static/media/nomura.png": "/static/media/nomura.e5d2b3eef2f5ffad39ea.png",
     "static/media/sande_sauban.jpeg": "/static/media/sande_sauban.61f0533dc90cd790af6e.jpeg",
     "static/media/eandw_nithin.jpeg": "/static/media/eandw_nithin.9e30fed4a57a6eb0bd3d.jpeg",
     "static/media/Ambience5.jpg": "/static/media/Ambience5.60c0af961590c6235fe2.jpg",
-    "static/media/NomuraRed.png": "/static/media/NomuraRed.6309daba00001656fb3d.png",
     "static/media/S&SLogo.png": "/static/media/S&SLogo.ef03b361992b6397e0e2.png",
     "static/media/eandw_kudari.jpeg": "/static/media/eandw_kudari.4a70b2ebb054eba7e5ef.jpeg",
     "static/media/candd_nikitha.jpeg": "/static/media/candd_nikitha.1e45fc3f943da47f45a1.jpeg",
@@ -67,6 +67,7 @@
     "static/media/bg2.jpg": "/static/media/bg2.3ef707a07dd269f6c79d.jpg",
     "static/media/eandw_hema.jpeg": "/static/media/eandw_hema.5fa8dfb3877d32667cc9.jpeg",
     "static/media/ME-B.2510110f.png": "/static/media/ME-B.2510110f.2510110f5b7331d444bd.png",
+    "static/media/AIRBUS_Blue.png": "/static/media/AIRBUS_Blue.a894635af6f5537089c9.png",
     "static/media/23_white logo-01.png": "/static/media/23_white logo-01.91f2a0c467cf63d9174c.png",
     "static/media/23_white logo-02.png": "/static/media/23_white logo-02.928b091f8c80b55c22f8.png",
     "static/media/digital-7.ttf": "/static/media/digital-7.93911ab167c943140756.ttf",
@@ -75,21 +76,23 @@
     "static/media/ArcesiumLogo.png": "/static/media/ArcesiumLogo.4fa9340a22a6e54a7089.png",
     "static/media/games-logo.jpeg": "/static/media/games-logo.e5140d3ce4f0f56fba56.jpeg",
     "static/media/BAJAJupdated.png": "/static/media/BAJAJupdated.2d7ca989e7664ddea733.png",
+    "static/media/wellsfargo.jpg": "/static/media/wellsfargo.a15a36b032ee7b4c4e6a.jpg",
     "static/media/Agnikul.png": "/static/media/Agnikul.831177087f1ea750049f.png",
     "static/media/ambience.jpeg": "/static/media/ambience.cc63e415d77c5b1cd2a5.jpeg",
     "static/media/Juspay.png": "/static/media/Juspay.6cafddb902383f33d513.png",
     "static/media/shaastra2.png": "/static/media/shaastra2.1949f60fbca66de3f46a.png",
     "static/media/KLA.6b2bfd91.png": "/static/media/KLA.6b2bfd91.cf39f8b6a29365a0ea02.png",
-    "static/media/pvr.png": "/static/media/pvr.9f0ce5bfa7af926afd47.png",
     "static/media/Ansys.png": "/static/media/Ansys.2986add05dca8da544e5.png",
+    "static/media/CAT.9fc50504.png": "/static/media/CAT.9fc50504.335530c32788f02af5b3.png",
+    "static/media/pvr.png": "/static/media/pvr.71b56c64415a70532ecd.png",
     "static/media/background.jpg": "/static/media/background.075a0aede306830a5f36.jpg",
     "index.html": "/index.html",
-    "main.1ce0a115.css.map": "/static/css/main.1ce0a115.css.map",
-    "main.d0ba6789.js.map": "/static/js/main.d0ba6789.js.map",
+    "main.5dac1a75.css.map": "/static/css/main.5dac1a75.css.map",
+    "main.2e1b9162.js.map": "/static/js/main.2e1b9162.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ce0a115.css",
-    "static/js/main.d0ba6789.js"
+    "static/css/main.5dac1a75.css",
+    "static/js/main.2e1b9162.js"
   ]
 }
