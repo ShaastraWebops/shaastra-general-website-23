@@ -1,17 +1,20 @@
 import React from 'react'
 import img1 from "../Images/Outlook-signature_.png"
+import wellsfargo from "../Images/wellsfargo.jpg";
 import img2 from "../Images/SLBlight.png"
-import img3 from "../Images/NomuraRed.png"
+import img3 from "../Images/nomura.png"
 import img6 from "../Images/Edufabrica1.jpeg"
 import img7 from "../Images/Boeing_full_logo.svg.png"
 import img8 from "../Images/GalaxEye.png"
 import img9 from "../Images/Agnikul.png"
 import img10 from "../Images/pvr.png"
 import img14 from "../Images/BAJAJupdated.png"
+import caterpillar from "../Images/CAT.9fc50504.png"
 import img15 from "../Images/Juspay.png"
 import img16 from "../Images/KLA.6b2bfd91.png"
 import img18 from "../Images/ME-B.2510110f.png"
 import img35 from "../Images/CHETAK.jpg"
+import airbus from "../Images/AIRBUS_Blue.png"
 import img36 from "../Images/FTL.jpg"
 import img37 from "../Images/BioconBiologics.png"
 import img38 from "../Images/Flipkartlogo.png"
@@ -60,71 +63,57 @@ const Spons = () => {
                     <h2 className='spons-heading'>Our Sponsor</h2>
                     <div className='spons-info'>Shaastra, ever since it's conception has been growing by leaps and bounds and this wouldn't have been achieved without the support of the student community and our corporate partners. We are continuously on the look out for long-term and mutually beneficial associations with reputed organizations from around the globe. In case your organization shares and believes in Shaastra’s vision, we would love to work out an association. We always welcome ideas, queries and criticism of any kind and hence, do feel free to contact us.</div>
                 </div>
-                <div className="slider">
-                    <div className='slide-track'>
-                        <a href="https://m2pfintech.com/"> <div className="slide ">
-                            <img src={img1} alt="" />
-                            <h2 class="title">Title Sponsor</h2>
-                        </div></a>
-                        <a href="https://www.slb.com/"><div className="slide">
-                            <img src={img2} alt="" />
-                            <h2 class="title">Gold Sponsor</h2>
-                        </div></a>
-                        <a href="https://www.nomura.com/"><div className="slide">
-                            <img src={img3} alt="" />
-                            <h2 class="title">Co Sponsor</h2>
-                        </div></a>
-                        <a href="https://www.arcesium.com/"><div className="slide">
-                            <img src={img42} alt="" />
-                            <h2 class="title">Technology Sponsor</h2>
-                        </div></a>
-                        <a href="https://www.ansys.com/en-in">
-                            <div className="slide">
-                                <img src={img43} alt="" />
-                                <h2 class="title">Industry Sponsor</h2>
-                            </div>
-                        </a>
-                        <a href="https://lntedutech.com/">
-                            <div className="slide">
-                                <img src={img44} alt="" />
-                                <h2 class="title">IDP Sponsor</h2>
-                            </div>
-                        </a>
-                        {/* 5 slides doubled up for the infinite loop */}
-                        <a href="https://m2pfintech.com/"> <div className="slide ">
-                            <img src={img1} alt="" />
-                            <h2 class="title">Title Sponsor</h2>
-                        </div></a>
-                        <a href="https://www.slb.com/"><div className="slide">
-                            <img src={img2} alt="" />
-                            <h2 class="title">Gold Sponsor</h2>
-                        </div></a>
-                        <a href="https://www.nomura.com/"><div className="slide">
-                            <img src={img3} alt="" />
-                            <h2 class="title">Co Sponsor</h2>
-                        </div></a>
-                        <a href="https://www.arcesium.com/"><div className="slide">
-                            <img src={img42} alt="" />
-                            <h2 class="title">Technology Sponsor</h2>
-                        </div></a>
-                        <a href="https://www.ansys.com/en-in">
-                            <div className="slide">
-                                <img src={img43} alt="" />
-                                <h2 class="title">Industry Sponsor</h2>
-                            </div>
-                        </a>
-                        <a href="https://lntedutech.com/">
-                            <div className="slide">
-                                <img src={img44} alt="" />
-                                <h2 class="title">IDP Sponsor</h2>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-                <div className='spons-events'>Events Sponsor</div>
+                {/* <div className="slider"> */}
                 <section class="container-main">
-                    <a href="https://www.bajajauto.com/"><div class="cards-events">
+                        <a href="https://m2pfintech.com/"> <div className="slide ">
+                            <img src={img1} alt="" />
+                            <h2 class="title">Title Sponsor</h2>
+                        </div></a>
+                        <a href="https://www.wellsfargo.com/"><div className="slide">
+                            <img src={wellsfargo} alt="" />
+                            <h2 class="title">Platinum Sponsor</h2>
+                        </div></a>
+                        <a href="https://www.slb.com/"><div className="slide">
+                            <img src={img2} alt="" />
+                            <h2 class="title">Gold Sponsor</h2>
+                        </div></a>
+                        <a href="https://www.nomura.com/"><div className="slide">
+                            <img src={img3} alt="" />
+                            <h2 class="title">Co Sponsor</h2>
+                        </div></a>
+                        <a href="https://galaxeye.space/"> <div className="slide">
+                            <img src={img8} alt="" />
+                            <h2 className="title-1">Summit Title Sponsor</h2>
+                        </div></a>
+                        <a href="https://agnikul.in/#/"><div className="slide">
+                            <img src={img9} alt="" />
+                            <h2 className="title-1">Summit Title Sponsor</h2>
+                        </div></a>
+                        <a href="https://www.boeing.co.in"><div className="slide">
+                            <img src={img7} alt="" />
+                            <h2 className="title-1">Innovation Sponsor</h2>
+                        </div></a>
+                        <a href="https://lntedutech.com/"><div className="slide">
+                                <img src={img44} alt="" />
+                                <h2 class="title">IDP Sponsor</h2>
+                        </div></a>
+                        <a href="https://www.arcesium.com/"><div className="slide">
+                            <img src={img42} alt="" />
+                            <h2 class="title">Technology Sponsor</h2>
+                        </div></a>
+                        <a href="https://www.edufabrica.net/">
+                            <div className="slide ">
+                                <img src={img6} alt="" />
+                                <h2 className="title-1">Biology Workshop Sponsor</h2>
+                            </div>
+                        </a>
+                    </section>
+
+                {/* </div> */}
+                <div className='spons-events'>Events Sponsor</div>
+                <div className="slider">
+                <div className='slide-track'>
+                <a href="https://www.bajajauto.com/"><div class="cards-events">
                         <img src={img14} alt="" className='imp-spons1' />
                         {/* <h2 class="title-1">Co Sponsors</h2> */}
                     </div></a>
@@ -133,17 +122,25 @@ const Spons = () => {
                         <img src={img35} alt="" className='imp-spons1' />
                         {/* <h2 class="title-1">Co Sponsors</h2> */}
                     </div></a>
-                    <a href="https://flowthermolab.com/"><div class="cards-events">
-                        <img src={img36} alt="" className='imp-spons1' />
+                    <a href="http://www.caterpillar.com/"><div class="cards-events">
+                        <img src={caterpillar} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
+                    <a href="https://www.kla.com/"><div class="cards-events">
+                        <img src={img16} alt="" className='imp-sales' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
+                    <a href="https://www.airbus.com/en/"><div class="cards-events">
+                        <img src={airbus} alt="" className='imp-spons1' />
                         {/* <h2 class="title-1">Co Sponsors</h2> */}
                     </div></a>
                     <a href="https://juspay.in/"><div class="cards-events">
                         <img src={img15} alt="" className='imp-spons1' />
                         {/* <h2 class="title-1">Co Sponsors</h2> */}
                     </div></a>
-                    <a href="https://www.kla.com/"><div class="cards-events">
-                        <img src={img16} alt="" className='imp-sales' />
-                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    <a href="https://www.flipkart.com/"><div class="cards-events">
+                        <img src={img38} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                     </div></a>
                     <a href="https://www.mouser.in/">
                         <div class="cards-events">
@@ -151,13 +148,13 @@ const Spons = () => {
                             {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                         </div>
                     </a>
+                    <a href="https://flowthermolab.com/"><div class="cards-events">
+                        <img src={img36} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
 
                     <a href="http://www.bioconbiologics.com/"><div class="cards-events">
                         <img src={img37} alt="" className='imp-spons1' />
-                        {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
-                    </div></a>
-                    <a href="https://www.flipkart.com/"><div class="cards-events">
-                        <img src={img38} alt="" className='imp-spons1' />
                         {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                     </div></a>
                     <a href="https://suranaandsurana.com/"><div class="cards-events">
@@ -174,60 +171,95 @@ const Spons = () => {
                             {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                         </div>
                     </a>
+                    {/*  slides doubled up for the infinite loop */}
+                    <a href="https://www.bajajauto.com/"><div class="cards-events">
+                        <img src={img14} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
 
-                </section>
-                <div className="slider1">
-                    <div className='slide-track1'>
-                        <a href="https://www.edufabrica.net/">
-                            <div className="slide ">
-                                <img src={img6} alt="" />
-                                <h2 className="title-1">Biology Workshop Sponsor</h2>
+                    <a href="https://www.bajajauto.com/"><div class="cards-events">
+                        <img src={img35} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
+                    <a href="http://www.caterpillar.com/"><div class="cards-events">
+                        <img src={caterpillar} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
+                    <a href="https://www.kla.com/"><div class="cards-events">
+                        <img src={img16} alt="" className='imp-sales' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
+                    <a href="https://www.airbus.com/en/"><div class="cards-events">
+                        <img src={airbus} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
+                    <a href="https://juspay.in/"><div class="cards-events">
+                        <img src={img15} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
+                    <a href="https://www.flipkart.com/"><div class="cards-events">
+                        <img src={img38} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
+                    </div></a>
+                    <a href="https://www.mouser.in/">
+                        <div class="cards-events">
+                            <img src={img18} alt="" className='imp-spons1' />
+                            {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
+                        </div>
+                    </a>
+                    <a href="https://flowthermolab.com/"><div class="cards-events">
+                        <img src={img36} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Co Sponsors</h2> */}
+                    </div></a>
+
+                    <a href="http://www.bioconbiologics.com/"><div class="cards-events">
+                        <img src={img37} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
+                    </div></a>
+                    <a href="https://suranaandsurana.com/"><div class="cards-events">
+                        <img src={img39} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
+                    </div></a>
+                    <a href="https://nptel.ac.in/"><div class="cards-events">
+                        <img src={img40} alt="" className='imp-spons1' />
+                        {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
+                    </div></a>
+                    <a href="https://onlinedegree.iitm.ac.in/">
+                        <div class="cards-events">
+                            <img src={img41} alt="" className='imp-spons1' />
+                            {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
+                        </div>
+                    </a>
+                </div>
+                </div>
+                <div className="slider1" style={{display: "flex", flexDirection: "row", alignItems: "center",justifyContent:"space-around"}}>
+                    {/* <div className='slide-track1'> */}
+                        <a href="https://www.ansys.com/en-in">
+                            <div className="slide1">
+                                <img src={img43} alt="" />
+                                <h2 className="title-1">Industry Sponsor</h2>
                             </div>
                         </a>
-                        <a href="https://www.boeing.co.in"><div className="slide">
-                            <img src={img7} alt="" />
-                            <h2 className="title-1">Innovation Sponsor</h2>
-                        </div></a>
-                        <a href="https://galaxeye.space/"> <div className="slide">
-                            <img src={img8} alt="" />
-                            <h2 className="title-1">Summit Sponsor</h2>
-                        </div></a>
-                        <a href="https://agnikul.in/#/"><div className="slide">
-                            <img src={img9} alt="" />
-                            <h2 className="title-1">Summit Sponsor</h2>
-                        </div></a>
                         <a href="https://instagram.com/pvrcinemas_official?igshid=YmMyMTA2M2Y=">
-                            <div className="slide">
+                            <div className="slide1">
                                 <img src={img10} alt="" />
                                 <h2 className="title-1">Movie Sponsor</h2>
                             </div>
                         </a>
                         {/* 5 slides doubled up for the infinite loop */}
-                        <a href="https://www.edufabrica.net/">
-                            <div className="slide ">
-                                <img src={img6} alt="" />
-                                <h2 className="title-1">Biology Workshop Sponsor</h2>
+                        {/* <a href="https://www.ansys.com/en-in">
+                            <div className="slide1">
+                                <img src={img43} alt="" />
+                                <h2 className="title-1">Industry Sponsor</h2>
                             </div>
                         </a>
-                        <a href="https://www.boeing.co.in"><div className="slide">
-                            <img src={img7} alt="" />
-                            <h2 className="title-1">Innovation Sponsor</h2>
-                        </div></a>
-                        <a href="https://galaxeye.space/"> <div className="slide">
-                            <img src={img8} alt="" />
-                            <h2 className="title-1">Summit Sponsor</h2>
-                        </div></a>
-                        <a href="https://agnikul.in/#/"><div className="slide">
-                            <img src={img9} alt="" />
-                            <h2 className="title-1">Summit Sponsor</h2>
-                        </div></a>
                         <a href="https://instagram.com/pvrcinemas_official?igshid=YmMyMTA2M2Y=">
-                            <div className="slide">
+                            <div className="slide1">
                                 <img src={img10} alt="" />
                                 <h2 className="title-1">Movie Sponsor</h2>
                             </div>
-                        </a>
-                    </div>
+                        </a> */}
+                    {/* </div> */}
 
                 </div>
                 {/* <div className='spons-extra'>
@@ -335,7 +367,7 @@ const Spons = () => {
                 </div> */}
 
             </div>
-            <Footer designed={[{ name: " Akshay", mail: "mailto:ce21b006@smail.iitm.ac.in" }]} />
+            <Footer designed={[{ name: " Akshay ", mail: "mailto:ce21b006@smail.iitm.ac.in" }]} />
         </body>
     )
 }
