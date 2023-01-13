@@ -60,7 +60,7 @@ const Spons = () => {
             <NavBar />
             <div className='spons-body'>
                 <div className='spons-intro'>
-                    <h2 className='spons-heading'>Our Sponsor</h2>
+                    <h1 className='spons-heading'>Our Sponsors</h1>
                     <div className='spons-info'>Shaastra, ever since it's conception has been growing by leaps and bounds and this wouldn't have been achieved without the support of the student community and our corporate partners. We are continuously on the look out for long-term and mutually beneficial associations with reputed organizations from around the globe. In case your organization shares and believes in Shaastra’s vision, we would love to work out an association. We always welcome ideas, queries and criticism of any kind and hence, do feel free to contact us.</div>
                 </div>
                 {/* <div className="slider"> */}
@@ -110,7 +110,7 @@ const Spons = () => {
                     </section>
 
                 {/* </div> */}
-                <div className='spons-events'>Events Sponsor</div>
+                <div className='spons-events'>Events Sponsors</div>
                 <div className="slider">
                 <div className='slide-track'>
                 <a href="https://www.bajajauto.com/"><div class="cards-events">

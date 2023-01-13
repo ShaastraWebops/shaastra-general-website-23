@@ -7,6 +7,12 @@
     overflow-y: scroll;
     background: linear-gradient(68.6deg, #72E0F2 1.8%, #F498F7 100.5%);
 }
+.spons-body h2{
+    margin: 20px 20px;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.161);
+}
 
 .slider {
     height: 250px;
@@ -156,6 +162,17 @@ img:hover {
     font-size: 20px;
     color: #ece3f0;
 }
+.spons-heading {
+    color: #fff;
+    margin-top: 65px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000;
+    text-shadow: 2px 2px 4px #0000001a,
+    3px 4px 4px #0000001a,
+    4px 6px 4px #0000001a,
+    5px 8px 4px #0000001a;
+}
 
 .spons-intro {
     display: flex;
@@ -165,11 +182,6 @@ img:hover {
     flex-direction: column;
 }
 
-.spons-heading {
-    font-size: 51px;
-    color: #fff;
-    margin-top: 65px;
-}
 
 .spons-info {
     padding-left: 30px;
@@ -180,7 +192,15 @@ img:hover {
     margin-bottom: 48px;
     color: #5d5f60;
 }
-
+.spons-events {
+    font-size: 40px;
+    color: #000;
+    text-shadow: 2px 2px 4px #0000001a,
+    3px 4px 4px #0000001a,
+    4px 6px 4px #0000001a;
+    margin-top: 90px;
+    font-weight: 600;
+}
 #root {
     overflow: hidden;
     margin: 0;
@@ -233,14 +253,17 @@ img:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
+    margin: 20px;
 
     /* margin-left: 37px;
     margin-right: 30px; */
     perspective: 100px;
 }
 .slide h2{
-    justify-self: center;
+    justify-self: start;
+}
+.slide img{
+    height: 250px;
 }
 
 
@@ -304,11 +327,6 @@ img:hover {
     /* width: 362px; */
 }
 
-.spons-events {
-    font-size: 30px;
-    color: #fff;
-    margin-top: 90px;
-}
 
 .imp-o {
     height: 106px;
