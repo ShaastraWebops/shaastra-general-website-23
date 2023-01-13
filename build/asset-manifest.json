@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5dac1a75.css",
-    "main.js": "/static/js/main.8d5ca226.js",
+    "main.js": "/static/js/main.cdafedab.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
     "static/media/IMG20221019113455.jpg": "/static/media/IMG20221019113455.78bd208df78d76c78eed.jpg",
@@ -29,8 +29,8 @@
     "static/media/Gamedev5.jpg": "/static/media/Gamedev5.d4fafe737a2920e2a6df.jpg",
     "static/media/Ambience2.jpg": "/static/media/Ambience2.0e2bf4715c39c648aa44.jpg",
     "static/media/IITM_BS_Degree_ Black_logo.png": "/static/media/IITM_BS_Degree_ Black_logo.17e679f64b28a78aa02d.png",
+    "static/media/BioconBiologics.png": "/static/media/BioconBiologics.596a0f8f81b6e97aa4a8.png",
     "static/media/i4.png": "/static/media/i4.7d06ec8103ea53c1bb08.png",
-    "static/media/BioconBiologics.png": "/static/media/BioconBiologics.b10cf4d85f95fba5015e.png",
     "static/media/Gamedev1.jpg": "/static/media/Gamedev1.43938c271258f68d7e83.jpg",
     "static/media/Ambience3.jpg": "/static/media/Ambience3.cccea08c57c84a81fcfa.jpg",
     "static/media/i3.png": "/static/media/i3.58ac23758154413b4d67.png",
@@ -73,26 +73,26 @@
     "static/media/digital-7.ttf": "/static/media/digital-7.93911ab167c943140756.ttf",
     "static/media/Edufabrica1.jpeg": "/static/media/Edufabrica1.fae335d732008fd48d78.jpeg",
     "static/media/SLBlight.png": "/static/media/SLBlight.5c4ec1234ba8ce6e366a.png",
-    "static/media/ArcesiumLogo.png": "/static/media/ArcesiumLogo.4fa9340a22a6e54a7089.png",
+    "static/media/Juspay.png": "/static/media/Juspay.6b6374af91d2c1afd9fc.png",
     "static/media/games-logo.jpeg": "/static/media/games-logo.e5140d3ce4f0f56fba56.jpeg",
     "static/media/BAJAJupdated.png": "/static/media/BAJAJupdated.2d7ca989e7664ddea733.png",
     "static/media/wellsfargo.jpg": "/static/media/wellsfargo.a15a36b032ee7b4c4e6a.jpg",
     "static/media/Agnikul.png": "/static/media/Agnikul.831177087f1ea750049f.png",
+    "static/media/ArcesiumLogo.png": "/static/media/ArcesiumLogo.d82482370993c168f963.png",
     "static/media/ambience.jpeg": "/static/media/ambience.cc63e415d77c5b1cd2a5.jpeg",
-    "static/media/Juspay.png": "/static/media/Juspay.6cafddb902383f33d513.png",
     "static/media/shaastra2.png": "/static/media/shaastra2.1949f60fbca66de3f46a.png",
-    "static/media/KLA.6b2bfd91.png": "/static/media/KLA.6b2bfd91.cf39f8b6a29365a0ea02.png",
-    "static/media/Ansys.png": "/static/media/Ansys.2986add05dca8da544e5.png",
-    "static/media/CAT.9fc50504.png": "/static/media/CAT.9fc50504.335530c32788f02af5b3.png",
+    "static/media/KLA.6b2bfd91.png": "/static/media/KLA.6b2bfd91.462bee625d570e7d53ec.png",
+    "static/media/Ansys.png": "/static/media/Ansys.b05f0be391912d67e2f2.png",
     "static/media/pvr.png": "/static/media/pvr.71b56c64415a70532ecd.png",
     "static/media/background.jpg": "/static/media/background.075a0aede306830a5f36.jpg",
+    "static/media/CAT.9fc50504.png": "/static/media/CAT.9fc50504.543a98e74aea2785c4a8.png",
     "index.html": "/index.html",
     "main.5dac1a75.css.map": "/static/css/main.5dac1a75.css.map",
-    "main.8d5ca226.js.map": "/static/js/main.8d5ca226.js.map",
+    "main.cdafedab.js.map": "/static/js/main.cdafedab.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5dac1a75.css",
-    "static/js/main.8d5ca226.js"
+    "static/js/main.cdafedab.js"
   ]
 }
