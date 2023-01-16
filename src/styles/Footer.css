@@ -247,6 +247,7 @@ span.add{
 /* This is for responsiveness */
 @media only screen and (min-width: 1200px) {
     .footer .contain {
+        width: 100vw;
         display: flex;
         justify-content: center;
         justify-content: space-evenly;
@@ -263,7 +264,7 @@ span.add{
         width: 95vw;
         margin: auto;
     }
-    .contain .follow {
+    .coly follow {
         width: 25%;
         display: block;
         margin: auto;
@@ -279,7 +280,6 @@ span.add{
 
     .logoFooter img {
         position: relative;
-        top: 20px;
         top: 20px;
     }
     .logothing{
