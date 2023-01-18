@@ -5,31 +5,44 @@
     display: grid;
     place-items: center;
     overflow-y: scroll;
-    background: linear-gradient(68.6deg, #72E0F2 1.8%, #F498F7 100.5%);
+    /* background: linear-gradient(68.6deg, #72E0F2 1.8%, #F498F7 100.5%); */
+    background: url('../Images/bg_spons.jpg') no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(145, 145, 145, 0.123);
 }
 .spons-body h2{
     margin: 20px 20px;
     font-weight: 600;
-    color: #000;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.161);
+    /* color: #000; */
+    /* text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.161); */
+    color: #fff;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.284);
 }
 
 .slider {
-    height: 250px;
+    /* height: 250px; */
+    height: auto;
     margin: auto;
+    padding: 15px;
     position: relative;
     width: 100%;
     display: grid;
+    grid-template-columns: auto auto auto;
     place-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .slider1 {
-    height: 250px;
+    /* height: 250px; */
+    height: auto;
     margin: auto;
+    margin-bottom: 10px;
+    padding: 30px;
     position: relative;
     width: 100%;
     display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
     place-items: center;
     overflow: hidden;
 }
@@ -114,34 +127,37 @@ img:hover {
 
 .slider::before {
     left: 0;
-    background: linear-gradient(to right, rgb(158, 200, 244) 0%, rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(to right, rgb(158, 200, 244) 0%, rgba(255, 255, 255, 0) 100%); */
+    background: linear-gradient(to right, rgb(11, 25, 100) 0%, rgba(255, 255, 255, 0) 100%);
     top: 0;
     transform: rotateZ(0deg);
 }
 
 .slider::after {
-    background: linear-gradient(to right, rgb(207, 172, 246) 0%, rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(to right, rgb(207, 172, 246) 0%, rgba(255, 255, 255, 0) 100%); */
+    background: linear-gradient(to right, rgb(53, 11, 100) 0%, rgba(255, 255, 255, 0) 100%);
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
 }
 
-.slider1::before,
+/* .slider1::before,
 .slider1::after {
-    /* background: linear-gradient(to right, rgba(255, 255, 255, 2) 0%, rgba(255, 255, 255, 0) 100%); */
+    background: linear-gradient(to right, rgba(255, 255, 255, 2) 0%, rgba(255, 255, 255, 0) 100%);
     content: '';
     height: 100%;
     position: absolute;
     width: 15%;
     z-index: 2;
-}
+} */
 
-.slider1::before {
+/* .slider1::before {
     left: 0;
     background: linear-gradient(to right, rgb(129, 213, 242) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(11, 25, 100) 0%, rgba(255, 255, 255, 0) 100%);
     top: 0;
     transform: rotateZ(0deg);
-}
+} */
 
 .slider a {
     text-decoration: none;
@@ -151,27 +167,34 @@ img:hover {
     text-decoration: none;
 }
 
-.slider1::after {
+/* .slider1::after {
     background: linear-gradient(to right, rgb(231, 159, 246) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(53, 11, 100) 0%, rgba(255, 255, 255, 0) 100%);
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
-}
+} */
 
 .title {
     font-size: 20px;
-    color: #ece3f0;
+    text-align: center;
+    /* color: #ece3f0; */
 }
 .spons-heading {
     color: #fff;
     margin-top: 65px;
     font-weight: 700;
     font-size: 60px;
-    color: #000;
+    /* color: #000;
     text-shadow: 2px 2px 4px #0000001a,
     3px 4px 4px #0000001a,
     4px 6px 4px #0000001a,
-    5px 8px 4px #0000001a;
+    5px 8px 4px #0000001a; */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #ffffff7c,
+    3px 4px 4px #ffffff1a,
+    4px 6px 4px #ffffff1a,
+    5px 8px 4px #ffffff1a;
 }
 
 .spons-intro {
@@ -190,14 +213,19 @@ img:hover {
     margin: 20px;
     margin-bottom: 20px;
     margin-bottom: 48px;
-    color: #5d5f60;
+    /* color: #5d5f60; */
+    color: #c2bfbf;
 }
 .spons-events {
     font-size: 40px;
-    color: #000;
+    /* color: #000;
     text-shadow: 2px 2px 4px #0000001a,
     3px 4px 4px #0000001a,
-    4px 6px 4px #0000001a;
+    4px 6px 4px #0000001a; */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #ffffff7c,
+    3px 4px 4px #ffffff1a,
+    4px 6px 4px #ffffff1a;
     margin-top: 90px;
     font-weight: 600;
 }
@@ -271,6 +299,8 @@ img:hover {
     background: rgba(0, 0, 0, 0);
     width: 220px;
     height: 161px;
+    display: flex;
+    align-items: center;
     /* margin: 10px; */
     border-radius: 10px;
     margin-right: 70px;
@@ -282,11 +312,13 @@ img:hover {
     background: rgba(0, 0, 0, 0);
     width: 220px;
     height: 161px;
+    display: flex;
+    flex-direction: column;
     /* margin: 10px; */
     border-radius: 10px;
     margin-right: 70px;
     margin-left: 71px;
-    margin-top: 57px;
+    margin-top: 15px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -309,8 +341,16 @@ img:hover {
 }
 
 .title-1 {
-    font-size: 20px;
-    color: #ece3f0;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    /* color: #ece3f0; */
+}
+.title-2 {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    /* color: #ece3f0; */
 }
 
 .imp-spons {
