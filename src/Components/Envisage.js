@@ -234,7 +234,7 @@ const Envisage = () => {
         </div>
         <div className="env-shows">
           <img src={games} alt="" className='env-img' />
-          <p className="env-games-content">This vertical comprises large scale projects which are presented in the Envisage show, which is organized on the first day of Shaastra. This is the first and only student-run techno-entertainment show in India and witnessed by an audience of around 5000.</p>
+          <p className="env-games-content">This vertical comprises large scale projects which are presented in the Envisage show, which is organized on 26th of January. This is the first and only student-run techno-entertainment show in India and witnessed by an audience of around 5000.</p>
         </div>
         <div className='cont-corousal'>
           <Swiper
