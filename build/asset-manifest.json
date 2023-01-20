@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c2193aa3.css",
-    "main.js": "/static/js/main.61ee56b5.js",
+    "main.js": "/static/js/main.dc5bb2f0.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
     "static/media/IMG20221019113455.jpg": "/static/media/IMG20221019113455.78bd208df78d76c78eed.jpg",
@@ -12,12 +12,14 @@
     "static/media/bg.png": "/static/media/bg.36cfe1d16b4caa05229d.png",
     "static/media/i6.png": "/static/media/i6.174dc1f9e585c1b92069.png",
     "static/media/i8.png": "/static/media/i8.88d7919ac4609dd3b3bc.png",
+    "static/media/evolve_mahboob.jpeg": "/static/media/evolve_mahboob.eafce6336bf7bfee5ca0.jpeg",
     "static/media/i1.png": "/static/media/i1.dbddcdcf32e23ba91a1a.png",
     "static/media/sande_mrinalini.jpg": "/static/media/sande_mrinalini.1b8cb8dc98c2d2ca67f6.jpg",
     "static/media/i7.png": "/static/media/i7.52a9193520ffd2ae22b6.png",
     "static/media/Gamedev4.jpg": "/static/media/Gamedev4.7e50f653a94539b73516.jpg",
     "static/media/Gamedev3.jpg": "/static/media/Gamedev3.5a040f0c0489769f0719.jpg",
     "static/media/MONSTER.png": "/static/media/MONSTER.97588d33a42b191e5af2.png",
+    "static/media/Abs-(illustrator).png": "/static/media/Abs-(illustrator).e62cb6bbd91dd8f76761.png",
     "static/media/cardimg.png": "/static/media/cardimg.07f27e935aa953ba580f.png",
     "static/media/Ambience8.jpg": "/static/media/Ambience8.6ee549a920f6d09c3887.jpg",
     "static/media/Amibence9.jpg": "/static/media/Amibence9.31cc988b54ebf63db97e.jpg",
@@ -56,7 +58,6 @@
     "static/media/sandp_anushka.jpeg": "/static/media/sandp_anushka.cf6f9e1057419ceb0d21.jpeg",
     "static/media/GalaxEye.png": "/static/media/GalaxEye.2910653573492e135aa8.png",
     "static/media/finance_soumya.jpg": "/static/media/finance_soumya.8ab9fdd40d16abc1b462.jpg",
-    "static/media/evolve_mahboob.jpeg": "/static/media/evolve_mahboob.13b6adcfc398e357a34c.jpeg",
     "static/media/sandp_saicharan.jpeg": "/static/media/sandp_saicharan.a1e069f4928b51dc6a67.jpeg",
     "static/media/oandip_tushar.jpeg": "/static/media/oandip_tushar.96b06ce0206498ef47f7.jpeg",
     "static/media/L&T.png": "/static/media/L&T.f006a53c76ac95c73295.png",
@@ -75,6 +76,7 @@
     "static/media/oandip_anchal.jpeg": "/static/media/oandip_anchal.27d31a781ca4e676c95c.jpeg",
     "static/media/envisage_shihad.jpg": "/static/media/envisage_shihad.d4bb1b2d239a40975fb7.jpg",
     "static/media/nomura_nobg.png": "/static/media/nomura_nobg.6cd0cd738bc7be285c48.png",
+    "static/media/Chaos_Entertainment.png": "/static/media/Chaos_Entertainment.9c5e2b65cb5a594d42d9.png",
     "static/media/bg3.jpg": "/static/media/bg3.4dfc47ee361a169b93c0.jpg",
     "static/media/Treebo.png": "/static/media/Treebo.33c557c0eafe13030a2b.png",
     "static/media/FTL_nobg.png": "/static/media/FTL_nobg.dbf167759ce6ad94cbcb.png",
@@ -82,6 +84,7 @@
     "static/media/Neorah Logo Png.png": "/static/media/Neorah Logo Png.33e77f2f9963a5f1b837.png",
     "static/media/This_1-01.png": "/static/media/This_1-01.6a66b69372327bd065a9.png",
     "static/media/eandw_hema.jpeg": "/static/media/eandw_hema.5fa8dfb3877d32667cc9.jpeg",
+    "static/media/Wedtree Logo purple.png": "/static/media/Wedtree Logo purple.b505686a7679d43a51bd.png",
     "static/media/m-mouser-electronics-process-white.png": "/static/media/m-mouser-electronics-process-white.80788977cee49a7122ce.png",
     "static/media/fastrackwhite.png": "/static/media/fastrackwhite.e389640700b7b7359eab.png",
     "static/media/23_white logo-01.png": "/static/media/23_white logo-01.91f2a0c467cf63d9174c.png",
@@ -89,6 +92,7 @@
     "static/media/23_white logo-02.png": "/static/media/23_white logo-02.928b091f8c80b55c22f8.png",
     "static/media/BAJAJ_nobg.png": "/static/media/BAJAJ_nobg.a6a14308cf0038412065.png",
     "static/media/digital-7.ttf": "/static/media/digital-7.93911ab167c943140756.ttf",
+    "static/media/V20_Cricket_Banner.png": "/static/media/V20_Cricket_Banner.d20435f333c20c97af27.png",
     "static/media/DCX_Logo.png": "/static/media/DCX_Logo.bf19eacd02718d8521db.png",
     "static/media/Cubelelo Logo White .png": "/static/media/Cubelelo Logo White .56d2bc781817ef35a48a.png",
     "static/media/GATSBY white.png": "/static/media/GATSBY white.7864a0b8192cac5a6460.png",
@@ -115,11 +119,11 @@
     "static/media/Codechef logo.png": "/static/media/Codechef logo.e2c38bb54ad491bd3034.png",
     "index.html": "/index.html",
     "main.c2193aa3.css.map": "/static/css/main.c2193aa3.css.map",
-    "main.61ee56b5.js.map": "/static/js/main.61ee56b5.js.map",
+    "main.dc5bb2f0.js.map": "/static/js/main.dc5bb2f0.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2193aa3.css",
-    "static/js/main.61ee56b5.js"
+    "static/js/main.dc5bb2f0.js"
   ]
 }
