@@ -9,8 +9,8 @@ import img8 from "../Images/GalaxEye.png"
 import img9 from "../Images/Agnikul.png"
 import img10 from "../Images/pvr.png"
 import img14 from "../Images/BAJAJ_nobg.png"
-import caterpillar from "../Images/CAT.9fc50504.png"
-import img15 from "../Images/Juspay.png"
+import caterpillar from "../Images/cat white.-no-bg.png"
+import img15 from "../Images/Juspay logo dark.png"
 import img16 from "../Images/KLA_Logo_clr_r_rgb.png"
 import img18 from "../Images/m-mouser-electronics-process-white.png"
 import img35 from "../Images/CHETAK_nobg.png"
@@ -22,7 +22,7 @@ import img39 from "../Images/S_SLogo_nobg.png"
 import img40 from "../Images/NPTELLogo.png"
 import img41 from "../Images/IITM_BS_Degree_ Black_logo.png";
 import img42 from "../Images/ArcesiumLogo.png"
-import img43 from "../Images/Ansys.png"
+import img43 from "../Images/Ansys white.png"
 import img44 from "../Images/L&T.png"
 import img45 from "../Images/Cubelelo Logo White .png";
 import img46 from "../Images/LC_LOGO.png";
@@ -30,22 +30,27 @@ import img47 from "../Images/R2D2 logo.png";
 import img48 from "../Images/topengineers.png";
 import img49 from "../Images/dataleads.png";
 import img50 from "../Images/EatSure Logo.png";
-import img51 from "../Images/GrabOn Logo.png";
 import img52 from "../Images/geekforgeeks.png";
-import img53 from "../Images/codechef.png";
-import img54 from "../Images/fastrack.png";
+import img53 from "../Images/Codechef logo.png";
+import img54 from "../Images/fastrackwhite.png";
 import img55 from "../Images/MONSTER.png";
 import img56 from "../Images/unibic.png";
 import img57 from "../Images/This_1-01.png";
 import img58 from "../Images/Suryan_FM.png";
-import img59 from "../Images/Beardo_logo.png";
-import img60 from "../Images/GATSBY.png";
-import img61 from "../Images/DCX.png";
+import img59 from "../Images/berado_logo_black.png";
+import img60 from "../Images/GATSBY white.png";
+import img61 from "../Images/DCX_Logo.png";
 import img62 from "../Images/Q'sica.png";
 import img63 from "../Images/dr aruns.png";
 import img64 from "../Images/GrabOn Logo.png";
 import img65 from "../Images/iris.png";
 import img66 from "../Images/Treebo.png";
+import img67 from "../Images/Times.1a73488a.jpg";
+import img68 from "../Images/ACR_IITM.png";
+import img69 from "../Images/frozen logo ai-02 (white).png";
+import img70 from "../Images/stucred.png";
+import img71 from "../Images/Neorah Logo Png.png";
+
 
 import "../styles/styles.css"
 import NavBar from './navigation/NavBar'
@@ -214,6 +219,10 @@ const Spons = () => {
                 </div>
                 <div className="slider1" >
                     {/* <div className='slide-track1'> */}
+                    <a href="https://acr.iitm.ac.in/"><div class="cards-events1">
+                        <img src={img68} alt="" className='imp-spons1' />
+                        <h2 class="title-1">Prize Money Sponsor</h2>
+                    </div></a>
                         <a href="https://www.ansys.com/en-in">
                             <div className="cards-events1">
                                 <img src={img43} alt="" className='imp-spons1'/>
@@ -232,6 +241,12 @@ const Spons = () => {
                                 <h2 className="title-1">Makeathon Sponsor</h2>
                             </div>
                         </a>
+                        <a href="https://www.instagram.com/frozen_bottle/">
+                            <div className="cards-events1">
+                                <img src={img69} alt="" className='imp-spons1'/>
+                                <h2 className="title-1">Refreshment Partner</h2>
+                            </div>
+                        </a>
                         <a href="http://www.topengineersindia.com">
                             <div className="cards-events1">
                                 <img src={img48} alt="" className='imp-spons1'/>
@@ -244,12 +259,6 @@ const Spons = () => {
                                 <h2 className="title-1">Cloud Kitchen Sponsor</h2>
                             </div>
                         </a>
-                        <a href="https://shaastra.grabon.in/">
-                            <div className="cards-events1">
-                                <img src={img51} alt="" className='imp-spons1'/>
-                                <h2 className="title-1">Coupon Sponsor</h2>
-                            </div>
-                        </a>
                         <a href="http://geeksforgeeks.com/">
                             <div className="cards-events1">
                                 <img src={img52} alt="" className='imp-spons1'/>
@@ -260,6 +269,12 @@ const Spons = () => {
                             <div className="cards-events1">
                                 <img src={img53} alt="" className='imp-spons1'/>
                                 <h2 className="title-1">Platform Sponsor</h2>
+                            </div>
+                        </a>
+                        <a href="https://epaper.timesgroup.com/the-times-of-india/chennai">
+                            <div className="cards-events1">
+                                <img src={img67} alt="" className='imp-spons1'/>
+                                <h2 className="title-1">Media Sponsor</h2>
                             </div>
                         </a>
                         {/* 5 slides doubled up for the infinite loop */}
@@ -278,8 +293,8 @@ const Spons = () => {
                     {/* </div> */}
 
                 </div>
-                <div className='spons-events' style={{fontSize:"30px",top:"450px",position:"relative"}}>Kind Sponsors</div>
-                <div className="slider" style={{top:"450px"}}>
+                <div className='spons-events' style={{fontSize:"30px"}}>Kind Sponsors</div>
+                <div className="slider">
                         <a href="https://www.fastrack.in/shop/perfumes?cm_sp=headerl2-_-watches-_-viewallbar&utm_source=fest&utm_medium=fest&utm_campaign=fastrackperfumesbrandcampaign2022">
                             <div className="cards-events1">
                                 <img src={img54} alt="" className='imp-spons1'/>
@@ -356,6 +371,18 @@ const Spons = () => {
                             <div className="cards-events1">
                                 <img src={img66} alt="" className='imp-spons1'/>
                                 <h2 className="title-2">Accomadation Partner</h2>
+                            </div>
+                        </a>
+                        <a href="https://www.stucred.com/">
+                            <div className="cards-events1">
+                                <img src={img70} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Student Credit Partner</h2>
+                            </div>
+                        </a>
+                        <a href="https://www.stucred.com/">
+                            <div className="cards-events1">
+                                <img src={img71} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Journaling sponsor</h2>
                             </div>
                         </a>
 

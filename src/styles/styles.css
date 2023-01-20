@@ -1,9 +1,14 @@
+/* body{
+    overflow-x: hidden !important;
+} */
+
 .spons-body {
     position: relative;
-    min-height: 100vh;
+    min-height: 100% !important;
     height: fit-content;
-    display: grid;
-    place-items: center;
+    max-width: 100% !important;
+    /* display: grid;
+    place-items: center; */
     overflow-y: scroll;
     /* background: linear-gradient(68.6deg, #72E0F2 1.8%, #F498F7 100.5%); */
     background: url('../Images/bg_spons.jpg') no-repeat;
@@ -29,15 +34,16 @@
     display: grid;
     grid-template-columns: auto auto auto;
     place-items: center;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .slider1 {
     /* height: 250px; */
     height: auto;
     margin: auto;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     padding: 30px;
+    top: 0;
     position: relative;
     width: 100%;
     display: grid;
@@ -218,17 +224,16 @@ img:hover {
 }
 .spons-events {
     font-size: 40px;
-    /* color: #000;
-    text-shadow: 2px 2px 4px #0000001a,
-    3px 4px 4px #0000001a,
-    4px 6px 4px #0000001a; */
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px #ffffff7c,
     3px 4px 4px #ffffff1a,
     4px 6px 4px #ffffff1a;
-    margin-top: 90px;
+    margin-top: 30px;
     font-weight: 600;
+    text-align: center;
+    width: 100%;
 }
+
 #root {
     overflow: hidden;
     margin: 0;
@@ -271,6 +276,7 @@ img:hover {
     width: 100%;
     margin-top: 0px;
     height: fit-content;
+    padding: 30px;
 }
 .container-main a{
     text-decoration: none;
@@ -418,4 +424,76 @@ img:hover {
 
 .cards-events:hover {
     transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1088px){
+    body{
+        overflow-x: hidden !important;
+    }
+    .spons-body{
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+    }
+
+    .spons-heading{
+        font-size: 50px;
+    }
+    .spons-info{
+        font-size: 17px;
+    }
+    .spons-events{
+        font-size: 31px;
+    }
+    .slide{
+        height: 214px;
+        width: 200px;
+    }
+    .slide img{
+        height: 178px;
+    }
+    .slide1{
+        height: 71px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .title-1{
+        font-size: 13px;
+    }
+    .title-2{
+        font-size: 11px;
+    }
+    .cards-events {
+        height: 130px;
+        width: 150px;
+    }
+    .cards-events1 {
+        height: 130px;
+        width: 150px;
+    }
+    .imp-spons1 {
+        height: 54px;
+        width: 151px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .slider{
+        padding: 15px;
+        gap:10px;
+        grid-template-columns: auto auto;
+    }
+    .slider1{
+        padding: 15px;
+        gap:10px;
+        grid-template-columns: auto auto;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .slider{
+        grid-template-columns: auto;
+    }
+    .slider1{
+        grid-template-columns: auto;
+    }
 }
