@@ -66,7 +66,8 @@
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-border: none;}
+    border: none;
+}
 
 .vision-heading {
     font-size: 38px;
@@ -99,7 +100,8 @@ border: none;}
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-border: none;}
+    border: none;
+}
 
 .env-games {
     /* height: 44vh; */
@@ -117,7 +119,8 @@ border: none;}
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-border: none;}
+    border: none;
+}
 
 .env-shows {
     /* height: 44vh; */
@@ -134,7 +137,8 @@ border: none;}
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-border: none;}
+    border: none;
+}
 
 .env-ambience {
     /* height: 44vh; */
@@ -150,7 +154,8 @@ border: none;}
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-border: none;}
+    border: none;
+}
 
 .env-ambience-logo {
     background: url("../Images/ambience.jpeg");
@@ -187,7 +192,8 @@ border: none;}
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-border: none;    font-size: 1.2vw;
+    border: none;
+    font-size: 1.2vw;
 }
 
 .env-ambience-heading {
@@ -198,7 +204,7 @@ border: none;    font-size: 1.2vw;
 }
 
 .env-games-heading {
-    margin-top: 45px;
+    margin-top: 55px;
     color: #fff;
     font-size: 49px;
     font-weight: 700;
@@ -211,10 +217,11 @@ border: none;    font-size: 1.2vw;
 }
 
 @media(max-width: 573px) {
-    .env-container{
+    .env-container {
         padding-top: 10vh;
         height: fit-content;
     }
+
     .env-games-container {
         flex-direction: column;
     }
@@ -226,7 +233,9 @@ border: none;    font-size: 1.2vw;
     .env-shows {
         flex-direction: column;
     }
-    .vision-content, .env-games-content{
+
+    .vision-content,
+    .env-games-content {
         font-size: 4vw;
         width: 95vw;
     }
@@ -377,13 +386,15 @@ border: none;    font-size: 1.2vw;
 }
 
 @media screen and (max-width: 500px) {
-    .quotes{
+    .quotes {
         font-size: 4vw;
     }
-    .cards-envisage{
+
+    .cards-envisage {
         height: fit-content
     }
-    .env-games-content{
+
+    .env-games-content {
         text-align: center;
     }
 }
