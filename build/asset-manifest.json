@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2193aa3.css",
-    "main.js": "/static/js/main.dc5bb2f0.js",
+    "main.css": "/static/css/main.801bb33b.css",
+    "main.js": "/static/js/main.0fd82339.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
     "static/media/IMG20221019113455.jpg": "/static/media/IMG20221019113455.78bd208df78d76c78eed.jpg",
@@ -47,6 +47,7 @@
     "static/media/sande_sauban.jpeg": "/static/media/sande_sauban.61f0533dc90cd790af6e.jpeg",
     "static/media/eandw_nithin.jpeg": "/static/media/eandw_nithin.9e30fed4a57a6eb0bd3d.jpeg",
     "static/media/Flipkartlogo.png": "/static/media/Flipkartlogo.b70dd0f01f07ad5e41e4.png",
+    "static/media/FPJ Logo .png": "/static/media/FPJ Logo .c2635daa90519dee4aa3.png",
     "static/media/Ambience5.jpg": "/static/media/Ambience5.60c0af961590c6235fe2.jpg",
     "static/media/topengineers.png": "/static/media/topengineers.38db6aaa086b01bb7a46.png",
     "static/media/eandw_kudari.jpeg": "/static/media/eandw_kudari.4a70b2ebb054eba7e5ef.jpeg",
@@ -57,6 +58,7 @@
     "static/media/bg4.jpg": "/static/media/bg4.e12497568cf721024203.jpg",
     "static/media/sandp_anushka.jpeg": "/static/media/sandp_anushka.cf6f9e1057419ceb0d21.jpeg",
     "static/media/GalaxEye.png": "/static/media/GalaxEye.2910653573492e135aa8.png",
+    "static/media/ak.png": "/static/media/ak.796fc0b310cf19798b31.png",
     "static/media/finance_soumya.jpg": "/static/media/finance_soumya.8ab9fdd40d16abc1b462.jpg",
     "static/media/sandp_saicharan.jpeg": "/static/media/sandp_saicharan.a1e069f4928b51dc6a67.jpeg",
     "static/media/oandip_tushar.jpeg": "/static/media/oandip_tushar.96b06ce0206498ef47f7.jpeg",
@@ -118,12 +120,12 @@
     "static/media/Ansys white.png": "/static/media/Ansys white.dd16586107c429d94a3e.png",
     "static/media/Codechef logo.png": "/static/media/Codechef logo.e2c38bb54ad491bd3034.png",
     "index.html": "/index.html",
-    "main.c2193aa3.css.map": "/static/css/main.c2193aa3.css.map",
-    "main.dc5bb2f0.js.map": "/static/js/main.dc5bb2f0.js.map",
+    "main.801bb33b.css.map": "/static/css/main.801bb33b.css.map",
+    "main.0fd82339.js.map": "/static/js/main.0fd82339.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2193aa3.css",
-    "static/js/main.dc5bb2f0.js"
+    "static/css/main.801bb33b.css",
+    "static/js/main.0fd82339.js"
   ]
 }

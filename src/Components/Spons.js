@@ -53,8 +53,9 @@ import img71 from "../Images/Neorah Logo Png.png";
 import img72 from "../Images/Wedtree Logo purple.png";
 import img73 from "../Images/V20_Cricket_Banner.png";
 import img74 from "../Images/Abs-(illustrator).png";
-import img75 from "../Images/Abs-(illustrator).png";
+import img75 from "../Images/FPJ Logo .png";
 import img76 from "../Images/Chaos_Entertainment.png";
+import img77 from "../Images/ak.png";
 
 import "../styles/styles.css"
 import NavBar from './navigation/NavBar'
@@ -263,10 +264,16 @@ const Spons = () => {
                                 <h2 className="title-1">Workshop Sponsor</h2>
                             </div>
                         </a>
+                        <a href="./">
+                            <div className="cards-events1">
+                                <img src={img77} alt="" className='imp-spons1'/>
+                                <h2 className="title-1">Health Partner</h2>
+                            </div>
+                        </a>
                         <a href="https://www.eatsure.com/">
                             <div className="cards-events1">
                                 <img src={img50} alt="" className='imp-spons1'/>
-                                <h2 className="title-1">Cloud Kitchen Sponsor</h2>
+                                <h2 className="title-1">Cloud Kitchen Partner</h2>
                             </div>
                         </a>
                         {/* 5 slides doubled up for the infinite loop */}
@@ -395,12 +402,12 @@ const Spons = () => {
                                     <h2 className="title-2">Gifting Sponsor</h2>
                                 </div>
                             </a>
-                            {/* <a href="https://www.freepressjournal.in/">
+                            <a href="https://www.freepressjournal.in/">
                                 <div className="cards-events1">
                                     <img src={img75} alt="" className='imp-spons1'/>
                                     <h2 className="title-2">Outreach Partner</h2>
                                 </div>
-                            </a> */}
+                            </a>
                         <a href="https://atelierneorah.com/">
                             <div className="cards-events1">
                                 <img src={img71} alt="" className='imp-spons1'/>
