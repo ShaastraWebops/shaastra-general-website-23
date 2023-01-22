@@ -50,7 +50,12 @@ import img68 from "../Images/ACR_IITM.png";
 import img69 from "../Images/frozen logo ai-02 (white).png";
 import img70 from "../Images/stucred.png";
 import img71 from "../Images/Neorah Logo Png.png";
-
+import img72 from "../Images/Wedtree Logo purple.png";
+import img73 from "../Images/V20_Cricket_Banner.png";
+import img74 from "../Images/Abs-(illustrator).png";
+import img75 from "../Images/FPJ Logo .png";
+import img76 from "../Images/Chaos_Entertainment.png";
+import img77 from "../Images/ak.png";
 
 import "../styles/styles.css"
 import NavBar from './navigation/NavBar'
@@ -105,6 +110,12 @@ const Spons = () => {
                             <img src={img2} alt="" />
                             <h2 class="title">Gold Sponsor</h2>
                         </div></a>
+                        <a href="https://epaper.timesgroup.com/the-times-of-india/chennai">
+                            <div className="slide">
+                                <img src={img67} alt=""/>
+                                <h2 className="title-1">Print Media Sponsor</h2>
+                            </div>
+                        </a>
                         <a href="https://www.nomura.com/"><div className="slide">
                             <img src={img3} alt="" />
                             <h2 class="title">Co Sponsor</h2>
@@ -253,28 +264,16 @@ const Spons = () => {
                                 <h2 className="title-1">Workshop Sponsor</h2>
                             </div>
                         </a>
+                        <a href="./">
+                            <div className="cards-events1">
+                                <img src={img77} alt="" className='imp-spons1'/>
+                                <h2 className="title-1">Health Partner</h2>
+                            </div>
+                        </a>
                         <a href="https://www.eatsure.com/">
                             <div className="cards-events1">
                                 <img src={img50} alt="" className='imp-spons1'/>
-                                <h2 className="title-1">Cloud Kitchen Sponsor</h2>
-                            </div>
-                        </a>
-                        <a href="http://geeksforgeeks.com/">
-                            <div className="cards-events1">
-                                <img src={img52} alt="" className='imp-spons1'/>
-                                <h2 className="title-1">Coding Sponsor</h2>
-                            </div>
-                        </a>
-                        <a href="https://www.codechef.com/">
-                            <div className="cards-events1">
-                                <img src={img53} alt="" className='imp-spons1'/>
-                                <h2 className="title-1">Platform Sponsor</h2>
-                            </div>
-                        </a>
-                        <a href="https://epaper.timesgroup.com/the-times-of-india/chennai">
-                            <div className="cards-events1">
-                                <img src={img67} alt="" className='imp-spons1'/>
-                                <h2 className="title-1">Media Sponsor</h2>
+                                <h2 className="title-1">Cloud Kitchen Partner</h2>
                             </div>
                         </a>
                         {/* 5 slides doubled up for the infinite loop */}
@@ -373,16 +372,58 @@ const Spons = () => {
                                 <h2 className="title-2">Accomadation Partner</h2>
                             </div>
                         </a>
+                        <a href="http://www.virtilens.com/">
+                            <div className="cards-events1">
+                                <img src={img73} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Street Sponsor</h2>
+                            </div>
+                        </a>
+                            <a href="https://www.codechef.com/">
+                                <div className="cards-events1">
+                                    <img src={img53} alt="" className='imp-spons1'/>
+                                    <h2 className="title-2">Platform Sponsor</h2>
+                                </div>
+                            </a>
+                            <a href="https://www.absolutebarbecues.com/reservations/?utm_source=iit&utm_medium=Conversions&utm_campaign=iitmadrass&utm_id=brand&utm_term=bookings&utm_content=complete">
+                            <div className="cards-events1">
+                                <img src={img74} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">BBQ Sponsor</h2>
+                            </div>
+                        </a>
+                            <a href="http://geeksforgeeks.com/">
+                                <div className="cards-events1">
+                                    <img src={img52} alt="" className='imp-spons1'/>
+                                    <h2 className="title-2">Coding Sponsor</h2>
+                                </div>
+                            </a>
+                            <a href="https://www.wedtree.com/">
+                                <div className="cards-events1">
+                                    <img src={img72} alt="" className='imp-spons1'/>
+                                    <h2 className="title-2">Gifting Sponsor</h2>
+                                </div>
+                            </a>
+                            <a href="https://www.freepressjournal.in/">
+                                <div className="cards-events1">
+                                    <img src={img75} alt="" className='imp-spons1'/>
+                                    <h2 className="title-2">Outreach Partner</h2>
+                                </div>
+                            </a>
+                        <a href="https://atelierneorah.com/">
+                            <div className="cards-events1">
+                                <img src={img71} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Journaling sponsor</h2>
+                            </div>
+                        </a>
                         <a href="https://www.stucred.com/">
                             <div className="cards-events1">
                                 <img src={img70} alt="" className='imp-spons1'/>
                                 <h2 className="title-2">Student Credit Partner</h2>
                             </div>
                         </a>
-                        <a href="https://www.stucred.com/">
+                        <a href="https://www.chaosgaming.co.in/">
                             <div className="cards-events1">
-                                <img src={img71} alt="" className='imp-spons1'/>
-                                <h2 className="title-2">Journaling sponsor</h2>
+                                <img src={img76} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Entertainment Partner</h2>
                             </div>
                         </a>
 
