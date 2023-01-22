@@ -1,30 +1,70 @@
+/* body{
+    overflow-x: hidden !important;
+} */
+
 .spons-body {
-    min-height: 100vh;
+    position: relative;
+    min-height: 100% !important;
     height: fit-content;
-    display: grid;
-    place-items: center;
+    max-width: 100% !important;
+    /* display: grid;
+    place-items: center; */
     overflow-y: scroll;
-    background: linear-gradient(68.6deg, #72E0F2 1.8%, #F498F7 100.5%);
+    /* background: linear-gradient(68.6deg, #72E0F2 1.8%, #F498F7 100.5%); */
+    background: url('../Images/bg_spons.jpg') no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(145, 145, 145, 0.123);
+}
+.spons-body h2{
+    margin: 20px 20px;
+    font-weight: 600;
+    /* color: #000; */
+    /* text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.161); */
+    color: #fff;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.284);
 }
 
 .slider {
-    height: 250px;
+    /* height: 250px; */
+    height: auto;
     margin: auto;
+    padding: 15px;
     position: relative;
     width: 100%;
     display: grid;
+    grid-template-columns: auto auto auto;
     place-items: center;
     overflow: hidden;
 }
 
 .slider1 {
-    height: 250px;
+    /* height: 250px; */
+    height: auto;
     margin: auto;
+    /* margin-bottom: 10px; */
+    padding: 30px;
+    top: 0;
     position: relative;
     width: 100%;
     display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
     place-items: center;
     overflow: hidden;
+}
+.slide1 {
+    height: 100px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 37px;
+    margin-right: 30px;
+    perspective: 100px;
+}
+.slide1 h2{
+    justify-self: center;
 }
 
 .slide-track {
@@ -67,21 +107,12 @@
     }
 }
 
-.slide {
-    height: 150px;
-    width: 164px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 15px;
-    margin-left: 37px;
-    margin-right: 30px;
-    perspective: 100px;
-}
+
 
 img {
     /* background: url('./images/TPL.6c79fa68.png'); */
     width: 100%;
+    object-fit: contain ;
     transition: transform 1s;
     height: 100%;
 }
@@ -102,34 +133,37 @@ img:hover {
 
 .slider::before {
     left: 0;
-    background: linear-gradient(to right, rgb(158, 200, 244) 0%, rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(to right, rgb(158, 200, 244) 0%, rgba(255, 255, 255, 0) 100%); */
+    background: linear-gradient(to right, rgb(11, 25, 100) 0%, rgba(255, 255, 255, 0) 100%);
     top: 0;
     transform: rotateZ(0deg);
 }
 
 .slider::after {
-    background: linear-gradient(to right, rgb(207, 172, 246) 0%, rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(to right, rgb(207, 172, 246) 0%, rgba(255, 255, 255, 0) 100%); */
+    background: linear-gradient(to right, rgb(53, 11, 100) 0%, rgba(255, 255, 255, 0) 100%);
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
 }
 
-.slider1::before,
+/* .slider1::before,
 .slider1::after {
-    /* background: linear-gradient(to right, rgba(255, 255, 255, 2) 0%, rgba(255, 255, 255, 0) 100%); */
+    background: linear-gradient(to right, rgba(255, 255, 255, 2) 0%, rgba(255, 255, 255, 0) 100%);
     content: '';
     height: 100%;
     position: absolute;
     width: 15%;
     z-index: 2;
-}
+} */
 
-.slider1::before {
+/* .slider1::before {
     left: 0;
     background: linear-gradient(to right, rgb(129, 213, 242) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(11, 25, 100) 0%, rgba(255, 255, 255, 0) 100%);
     top: 0;
     transform: rotateZ(0deg);
-}
+} */
 
 .slider a {
     text-decoration: none;
@@ -139,16 +173,34 @@ img:hover {
     text-decoration: none;
 }
 
-.slider1::after {
+/* .slider1::after {
     background: linear-gradient(to right, rgb(231, 159, 246) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(53, 11, 100) 0%, rgba(255, 255, 255, 0) 100%);
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
-}
+} */
 
 .title {
     font-size: 20px;
-    color: #ece3f0;
+    text-align: center;
+    /* color: #ece3f0; */
+}
+.spons-heading {
+    color: #fff;
+    margin-top: 65px;
+    font-weight: 700;
+    font-size: 60px;
+    /* color: #000;
+    text-shadow: 2px 2px 4px #0000001a,
+    3px 4px 4px #0000001a,
+    4px 6px 4px #0000001a,
+    5px 8px 4px #0000001a; */
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #ffffff7c,
+    3px 4px 4px #ffffff1a,
+    4px 6px 4px #ffffff1a,
+    5px 8px 4px #ffffff1a;
 }
 
 .spons-intro {
@@ -159,11 +211,6 @@ img:hover {
     flex-direction: column;
 }
 
-.spons-heading {
-    font-size: 51px;
-    color: #fff;
-    margin-top: 65px;
-}
 
 .spons-info {
     padding-left: 30px;
@@ -172,7 +219,19 @@ img:hover {
     margin: 20px;
     margin-bottom: 20px;
     margin-bottom: 48px;
-    color: #5d5f60;
+    /* color: #5d5f60; */
+    color: #c2bfbf;
+}
+.spons-events {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #ffffff7c,
+    3px 4px 4px #ffffff1a,
+    4px 6px 4px #ffffff1a;
+    margin-top: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
 }
 
 #root {
@@ -210,17 +269,44 @@ img:hover {
 
 .container-main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 52px;
+    margin-top: 0px;
     height: fit-content;
+    padding: 30px;
 }
+.container-main a{
+    text-decoration: none;
+}
+.slide {
+    height: 300px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+    /* margin-left: 37px;
+    margin-right: 30px; */
+    perspective: 100px;
+}
+.slide h2{
+    justify-self: start;
+}
+.slide img{
+    height: 250px;
+}
+
 
 .cards-events {
     background: rgba(0, 0, 0, 0);
     width: 220px;
     height: 161px;
+    display: flex;
+    align-items: center;
     /* margin: 10px; */
     border-radius: 10px;
     margin-right: 70px;
@@ -232,11 +318,13 @@ img:hover {
     background: rgba(0, 0, 0, 0);
     width: 220px;
     height: 161px;
+    display: flex;
+    flex-direction: column;
     /* margin: 10px; */
     border-radius: 10px;
     margin-right: 70px;
     margin-left: 71px;
-    margin-top: 57px;
+    margin-top: 15px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -259,8 +347,16 @@ img:hover {
 }
 
 .title-1 {
-    font-size: 20px;
-    color: #ece3f0;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    /* color: #ece3f0; */
+}
+.title-2 {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    /* color: #ece3f0; */
 }
 
 .imp-spons {
@@ -277,11 +373,6 @@ img:hover {
     /* width: 362px; */
 }
 
-.spons-events {
-    font-size: 30px;
-    color: #fff;
-    margin-top: 90px;
-}
 
 .imp-o {
     height: 106px;
@@ -333,4 +424,76 @@ img:hover {
 
 .cards-events:hover {
     transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1088px){
+    body{
+        overflow-x: hidden !important;
+    }
+    .spons-body{
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+    }
+
+    .spons-heading{
+        font-size: 50px;
+    }
+    .spons-info{
+        font-size: 17px;
+    }
+    .spons-events{
+        font-size: 31px;
+    }
+    .slide{
+        height: 214px;
+        width: 200px;
+    }
+    .slide img{
+        height: 178px;
+    }
+    .slide1{
+        height: 71px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .title-1{
+        font-size: 13px;
+    }
+    .title-2{
+        font-size: 11px;
+    }
+    .cards-events {
+        height: 130px;
+        width: 150px;
+    }
+    .cards-events1 {
+        height: 130px;
+        width: 150px;
+    }
+    .imp-spons1 {
+        height: 54px;
+        width: 151px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .slider{
+        padding: 15px;
+        gap:10px;
+        grid-template-columns: auto auto;
+    }
+    .slider1{
+        padding: 15px;
+        gap:10px;
+        grid-template-columns: auto auto;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .slider{
+        grid-template-columns: auto;
+    }
+    .slider1{
+        grid-template-columns: auto;
+    }
 }

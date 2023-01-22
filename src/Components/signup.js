@@ -55,7 +55,7 @@ const Signup = () => {
           },
         },
       }).then((res) => {
-        console.log(res)
+        console.log(res);
         if (res.data?.createUser) {
           navigate("/verify");
         }
@@ -108,7 +108,8 @@ const Signup = () => {
           <title>Shaastra 2023</title>
           <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+          />
           <link rel="stylesheet" href="/static/styles/styles.css" />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" />
         </header>
@@ -117,7 +118,12 @@ const Signup = () => {
       <h1>SIGNUP</h1>
     </div> */}
           <svg class="signup-heading">
-            <text x="50%" dominant-baseline="middle" text-anchor="middle" y="50%">
+            <text
+              x="50%"
+              dominant-baseline="middle"
+              text-anchor="middle"
+              y="50%"
+            >
               SIGN UP
             </text>
           </svg>
@@ -170,17 +176,19 @@ const Signup = () => {
             <div>
               <input
                 className="type-3-1 type-3 college"
-                placeholder="COLLEGE"
+                placeholder="COLLEGE/SCHOOL"
                 outline="none"
                 value={user.college}
                 onChange={(e) => setUser({ ...user, college: e.target.value })}
               ></input>
               <input
                 className="type-3-2 type-3 branch"
-                placeholder="DEPARTMENT"
+                placeholder="DEPARTMENT/CLASS"
                 outline="none"
                 value={user.department}
-                onChange={(e) => setUser({ ...user, department: e.target.value })}
+                onChange={(e) =>
+                  setUser({ ...user, department: e.target.value })
+                }
               ></input>
             </div>
             <div>
@@ -231,7 +239,12 @@ const Signup = () => {
           <div class="circleAcc12 circleAcc" />
         </div>
       </section>
-      <Footer designed={[{name: "Arnav", mail:"mailto:Cs21b009@smail.IITM.AC.in"}, {name: "Juana", mail: "mailto:ce21b065@smail.iitm.ac.in"}]} />
+      <Footer
+        designed={[
+          { name: "Arnav", mail: "mailto:Cs21b009@smail.IITM.AC.in" },
+          { name: "Juana", mail: "mailto:ce21b065@smail.iitm.ac.in" },
+        ]}
+      />
     </body>
   );
 };

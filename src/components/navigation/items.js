@@ -99,7 +99,7 @@ export const items = [
     {
         id: 5,
         title: 'Passport',
-        url:'https://sales.shaastra.org/passport',
+        url:'https://sales.shaastra.org',
     },
     // {
     //     id: 6,

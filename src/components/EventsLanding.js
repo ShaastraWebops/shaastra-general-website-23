@@ -73,12 +73,19 @@ function EventsLanding() {
             </svg>
 
             <div class="explorebutton">
-              <button className="explore" oncCick="explore()">
+              <button
+                className="explore"
+                onClick={() =>
+                  document
+                    .getElementById("list")
+                    .scrollIntoView({ behavior: "smooth" })
+                }
+              >
                 Explore Events{" "}
               </button>{" "}
             </div>
           </div>
-          <div className="glassmorphic2">
+          <div className="glassmorphic2" id="list">
             <div>
               <select
                 name="Vertical"
@@ -106,7 +113,9 @@ function EventsLanding() {
                   onClick={(e) => {
                     e.preventDefault();
                     refetch({ filter: vertical });
-                    if (vertical==="ALL") {refetch({filter: ""})}
+                    if (vertical === "ALL") {
+                      refetch({ filter: "" });
+                    }
                   }}
                 >
                   Apply

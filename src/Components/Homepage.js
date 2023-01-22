@@ -18,6 +18,50 @@ import TopBar from './TopBar'
 import { Modal2 } from "./Modal2";
 import { Container, ButtonModal } from "./modalContainer";
 
+
+function PassportDiv() {
+  const mystyle = {
+    color: "white",
+    padding: "10px",
+    fontFamily: "Arial"
+  };
+
+  const divstyle ={
+    alignItems: "center",
+    display: "inline-flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    marginInline: "4rem",
+    padding: "1.2rem",
+    paddingInline: "1.5rem",
+    borderRadius:"10px",
+    background: "linear-gradient(224.52deg, #0B0454 1.63%, #7E10B3 70.6%, rgba(130, 16, 176, 0.88) 90.31%, rgba(162, 17, 156, 0.82) 101.2%)"
+  };
+
+  const liststyle ={
+    
+    alignItems: "center",
+    border: "1.5px solid #fff",
+    borderRadius: "10px",
+    display: "inline-flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    marginInline: "4rem",
+    padding: "1.2rem",
+    paddingInline: "1.5rem",
+    listStyle:"none"
+  }
+  const passinfo ={
+    color: "white",
+    backgroundColor: "",
+    animation: "glitch 2s ease infinite",
+    fontSize:"30px"
+}
+  return (
+    <div><span style={divstyle}><span style={passinfo}>With a<b style = {mystyle}>Shaastra Passport</b>, gain complete access to all of Shaastra's:</span><ul style={liststyle}><li style={mystyle}>➡️ On-spot competitions</li><li style ={mystyle}>➡️ Night shows</li><li style = {mystyle}>➡️ Workshops</li><li style ={mystyle}>➡️ Spotlight lecture series</li><li style = {mystyle}>➡️ Research conference on AI, ML ,DS</li><li style = {mystyle}>➡️ Industrial talks</li><li style = {mystyle}>➡️ Exhibitions</li><li style = {mystyle}>➡️ Games, tech-entertainment, fun, frolic, and much more! Only at the lush green IITM campus</li></ul></span></div>
+  );
+}
+
 const Homepage=()=> {
   
   const [cpCount, setCpCount]=useState(1);
@@ -78,15 +122,48 @@ const Homepage=()=> {
   const openModal2 = () => {
     setShowModal2((prev) => !prev);
   };
+  const [isHovering, setIsHovering] = useState(false);
 
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
+  const divvstyle ={
+    top: "0%",
+    left: "10%",
+    transform: "translate(0%, 60%)",
+    border: "1px solid #666",
+    borderRadius: "5px",
+    background: "#7E10B3",   
+    position: "fixed",
+    fontSize:"20px",
+    color:"white",
+    zIndex:"100000000",
+    padding: "5px 5px 5px 5px"
+  }
   return (
     <div className="App home">
       <TopBar />
       <NavBar />
-      <ButtonModal onClick={openModal2}>SALES!</ButtonModal>
+      
+      <ButtonModal onClick={openModal2}>Sales!</ButtonModal>
       <Container>
         <Modal2 showModal2={showModal2} setShowModal2={setShowModal2} />
       </Container>
+      <div>
+      <div>
+      <a href="https://sales.shaastra.org"><div
+          onMouseOver={handleMouseOver}
+          onMouseOut={handleMouseOut}
+          style={divvstyle}>
+          SHAASTRA PASSPORT!
+        </div></a>
+        {isHovering && <PassportDiv />}
+      </div>
+    </div>
       <div className='uni'>
           
           <div className='control-btns'>
@@ -95,6 +172,9 @@ const Homepage=()=> {
           </div>
           <div className='text-phrase' onClick={()=>window.open("./Workshops")}>
             <h3>Enroll for workshops now!</h3>
+          </div>
+          <div className='acco-phrase' onClick={()=>window.open("https://hospitality.shaastra.org/")}>
+            <h3>Accomodation</h3>
           </div>
           {/* <div className='tap-phrase' >
             Tap to see more!
