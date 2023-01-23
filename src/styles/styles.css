@@ -471,11 +471,11 @@ img {
     }
     .cards-events {
         height: 130px;
-        width: 150px;
+        width: 200px;
     }
     .cards-events1 {
         height: 130px;
-        width: 150px;
+        width: 200px;
     }
     .imp-spons1 {
         height: 54px;
@@ -492,6 +492,9 @@ img {
         padding: 15px;
         gap:10px;
         grid-template-columns: auto auto;
+    }
+    .imp-spons1{
+        height: 54px !important;
     }
     
 }
