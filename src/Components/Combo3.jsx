@@ -134,7 +134,7 @@ function Combo({ events }) {
       key: "rzp_live_WQ7VB5TIMbvijH",
       amount: data?.amount,
       currency: "INR",
-      name: "Merry Combo",
+      name: "Phantom Combo",
       image: "", //TODO: Add the shaastra link here
       order_id: data?.orderId,
 
@@ -416,7 +416,7 @@ function Combo({ events }) {
                       console.log(address);
                       await combo({
                         variables: {
-                          combo: "Merry Combo",
+                          combo: "Phantom Combo",
                           tShirtsDetails: {
                             address: address,
                             city: city,

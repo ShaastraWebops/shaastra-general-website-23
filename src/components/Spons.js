@@ -18,7 +18,7 @@ import airbus from "../Images/AIRBUS_White.png"
 import img36 from "../Images/FTL_nobg.png"
 import img37 from "../Images/BioconBiologics.png"
 import img38 from "../Images/Flipkartlogo.png"
-import img39 from "../Images/S_SLogo_nobg.png"
+import img39 from "../Images/surana_logo_white-banner.png"
 import img40 from "../Images/NPTELLogo.png"
 import img41 from "../Images/IITM_BS_Degree_ Black_logo.png";
 import img42 from "../Images/ArcesiumLogo.png"
@@ -203,15 +203,15 @@ const Spons = () => {
                     </div></a>
 
                     <a href="http://www.bioconbiologics.com/"><div class="cards-events">
-                        <img src={img37} alt="" className='imp-spons1' />
+                        <img src={img37} alt="" className='imp-spons1' style={{height:"100px"}}/>
                         {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                     </div></a>
                     <a href="https://suranaandsurana.com/"><div class="cards-events">
-                        <img src={img39} alt="" className='imp-spons1' />
+                        <img src={img39} alt="" className='imp-spons1' style={{height:"100px"}}/>
                         {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                     </div></a>
                     <a href="https://nptel.ac.in/"><div class="cards-events">
-                        <img src={img40} alt="" className='imp-spons1' />
+                        <img src={img40} alt="" className='imp-spons1' style={{height:"100px"}}/>
                         {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                     </div></a>
                     <a href="https://onlinedegree.iitm.ac.in/">
