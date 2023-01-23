@@ -59,7 +59,7 @@ import img77 from "../Images/ak.png";
 import img78 from "../Images/ME_imprint_land_cmyk.png";
 import img79 from "../Images/specsmakers.png";
 import img80 from "../Images/asus-blackbg.png";
-import img81 from "../Images/abati.jpg";
+import img81 from "../Images/Abati-Logo.png";
 import img82 from "../Images/chennaigrowmore.png";
 import img83 from "../Images/Hiker Wolf.png";
 import img84 from "../Images/tattoo-nobg.png";
@@ -284,12 +284,6 @@ const Spons = () => {
                                 <h2 className="title-1">Cloud Kitchen Partner</h2>
                             </div>
                         </a>
-                            <a href="https://rog.asus.com/in/">
-                                <div className="cards-events1">
-                                    <img src={img80} alt="" className='imp-spons1'/>
-                                    <h2 className="title-2">Gaming Partner</h2>
-                                </div>
-                            </a>
                         {/* 5 slides doubled up for the infinite loop */}
                         {/* <a href="https://www.ansys.com/en-in">
                             <div className="slide1">
@@ -308,6 +302,12 @@ const Spons = () => {
                 </div>
                 <div className='spons-events' style={{fontSize:"30px"}}>Kind Sponsors</div>
                 <div className="slider">
+                        <a href="https://rog.asus.com/in/">
+                            <div className="cards-events1">
+                                <img src={img80} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Gaming Partner</h2>
+                            </div>
+                        </a>
                         <a href="https://www.fastrack.in/shop/perfumes?cm_sp=headerl2-_-watches-_-viewallbar&utm_source=fest&utm_medium=fest&utm_campaign=fastrackperfumesbrandcampaign2022">
                             <div className="cards-events1">
                                 <img src={img54} alt="" className='imp-spons1'/>

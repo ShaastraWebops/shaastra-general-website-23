@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4e765380.css",
-    "main.js": "/static/js/main.c399a91e.js",
+    "main.js": "/static/js/main.531b1c21.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
     "static/media/IMG20221019113455.jpg": "/static/media/IMG20221019113455.78bd208df78d76c78eed.jpg",
@@ -49,7 +49,6 @@
     "static/media/sande_sauban.jpeg": "/static/media/sande_sauban.61f0533dc90cd790af6e.jpeg",
     "static/media/eandw_nithin.jpeg": "/static/media/eandw_nithin.9e30fed4a57a6eb0bd3d.jpeg",
     "static/media/Flipkartlogo.png": "/static/media/Flipkartlogo.b70dd0f01f07ad5e41e4.png",
-    "static/media/abati.jpg": "/static/media/abati.54d77a99ce5df930550d.jpg",
     "static/media/FPJ Logo .png": "/static/media/FPJ Logo .c2635daa90519dee4aa3.png",
     "static/media/Ambience5.jpg": "/static/media/Ambience5.60c0af961590c6235fe2.jpg",
     "static/media/chennaigrowmore.png": "/static/media/chennaigrowmore.c5de7d48e87a4dbb65ef.png",
@@ -108,6 +107,7 @@
     "static/media/games-logo.jpeg": "/static/media/games-logo.e5140d3ce4f0f56fba56.jpeg",
     "static/media/wellsfargo.jpg": "/static/media/wellsfargo.a15a36b032ee7b4c4e6a.jpg",
     "static/media/Agnikul.png": "/static/media/Agnikul.831177087f1ea750049f.png",
+    "static/media/Abati-Logo.png": "/static/media/Abati-Logo.f1774450e1a037a3b938.png",
     "static/media/unibic.png": "/static/media/unibic.d327b93d68203e054daa.png",
     "static/media/bg_spons.jpg": "/static/media/bg_spons.3b15b6bae1fab668a1ed.jpg",
     "static/media/ArcesiumLogo.png": "/static/media/ArcesiumLogo.d82482370993c168f963.png",
@@ -129,11 +129,11 @@
     "index.html": "/index.html",
     "static/media/GFG-gg-logo.svg": "/static/media/GFG-gg-logo.89169b2837963ab7f7454736c7adb718.svg",
     "main.4e765380.css.map": "/static/css/main.4e765380.css.map",
-    "main.c399a91e.js.map": "/static/js/main.c399a91e.js.map",
+    "main.531b1c21.js.map": "/static/js/main.531b1c21.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e765380.css",
-    "static/js/main.c399a91e.js"
+    "static/js/main.531b1c21.js"
   ]
 }
