@@ -11,7 +11,7 @@ export const items = [
         subitems: [
             {   
                 id: 1,
-                title: 'Events',
+                title: 'Competitions',
                 url:'/events',
             },
             {
@@ -113,12 +113,7 @@ export const items = [
     },
     {
         id: 7,
-        title: 'Team',
+        title: 'Contact our team',
         url:'/team',
-    },
-    {
-        id: 8,
-        title: 'Contact Us',
-        url:'/contact',
     }
 ]

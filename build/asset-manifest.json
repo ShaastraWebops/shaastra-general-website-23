@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.801bb33b.css",
-    "main.js": "/static/js/main.0fd82339.js",
+    "main.css": "/static/css/main.1cfd7b96.css",
+    "main.js": "/static/js/main.ccb3313e.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
     "static/media/IMG20221019113455.jpg": "/static/media/IMG20221019113455.78bd208df78d76c78eed.jpg",
@@ -120,12 +120,12 @@
     "static/media/Ansys white.png": "/static/media/Ansys white.dd16586107c429d94a3e.png",
     "static/media/Codechef logo.png": "/static/media/Codechef logo.e2c38bb54ad491bd3034.png",
     "index.html": "/index.html",
-    "main.801bb33b.css.map": "/static/css/main.801bb33b.css.map",
-    "main.0fd82339.js.map": "/static/js/main.0fd82339.js.map",
+    "main.1cfd7b96.css.map": "/static/css/main.1cfd7b96.css.map",
+    "main.ccb3313e.js.map": "/static/js/main.ccb3313e.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.801bb33b.css",
-    "static/js/main.0fd82339.js"
+    "static/css/main.1cfd7b96.css",
+    "static/js/main.ccb3313e.js"
   ]
 }
