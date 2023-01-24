@@ -1,0 +1,158 @@
+.debunk-section {
+    background-color: black;
+}
+
+.banner {
+    background: url(../../public/banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #F182EB;
+    font-size: calc(4rem + 4vw);
+    font-weight: 700;
+    letter-spacing: 2px;
+    z-index: 2;
+    text-shadow: calc(6px + 0.5vw) calc(6px + 0.5vw) 0px #993094;
+}
+
+
+.aboutdebunk {
+    width: 75%;
+    margin: auto;
+    color: white;
+    text-align: left;
+    background-color: black;
+}
+
+p {
+    padding-top: 50px;
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #993094;
+    font-size: 3rem;
+    margin-bottom: -20px;
+}
+
+
+.debunkinit {
+    color: white;
+    text-align: left;
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: #993094;
+    font-size: 3rem;
+}
+
+.debin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+#debimg1 {
+    background: url(../../public/IMG_2082.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 10%;
+    width: calc(40% - 5vw);
+    margin-left: 5%;
+    margin-top: -80px;
+}
+
+#debimg2 {
+    background: url(../../public/IMG20221019113455.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 10%;
+    width: calc(40% - 5vw);
+    margin-right: 5%;
+}
+
+
+p {
+    margin: 0;
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-style: italic;
+    text-indent: 2em;
+    margin-top: -20px;
+}
+
+
+@media (max-width: 960px) {
+
+    p {
+        font-size: 12px;
+    }
+
+    .aboutdebunk h2 {
+        font-size: 2.5rem;
+    }
+
+    .debunkinit {
+
+        font-size: 2.5rem;
+
+    }
+}
+
+@media (max-width: 800px) {
+
+    p {
+        font-size: 10px;
+    }
+
+    .aboutdebunk h2 {
+        font-size: 2rem;
+    }
+
+    .debunkinit {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .banner {
+        height: 30vh;
+
+    }
+}
+
+.debin {
+    margin-bottom: 20px !important;
+    flex-direction: column !important;
+
+}
+
+#debimg1 {
+    width: 100% !important;
+    height: 160px;
+    margin: 0 !important;
+}
+
+#debimg2 {
+    width: 100% !important;
+    height: 160px;
+    margin: 0 !important;
+}
+
+
+.debin2 {
+    flex-direction: column-reverse !important;
+}
