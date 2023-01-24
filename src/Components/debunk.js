@@ -72,8 +72,7 @@ function debunk() {
                         <div className="deb-news-img1"></div>
                         <div className="deb-news-img1"></div>
                     </div>
-                    <div className="discord">Discord Community</div>
-                    <p>As a part of our engaging initiatives, we have also created a discord community, which is a forum for fact-checking professionals and enthusiasts to analyze, b, consult, discuss and endorse many articles and latest evolving technologies related to the domain of fact-checking.<a href="https://discord.gg/wJT3BmjP">https://discord.gg/wJT3BmjP</a></p>
+
                     <div className="debunkathon">
                         <br></br>
                         <br></br>
@@ -95,6 +94,10 @@ function debunk() {
                         <p>We are organizing the (conf name). The conference aims to propose the first-ever policy suggestion to the government on regulating the use of technical tools concerning misinformation. The conference will happen on the 28th of January, 2023 with speakers from technical and policy-making backgrounds highlighting the necessity of policy in the newly emerging technologies, with a special focus on Deepfakes. (2 posters of panelists)
                         </p>
                     </div>
+                    <br></br>
+                    <br></br>
+                    <div className="discord"><h3>Discord Community</h3></div>
+                    <p>As a part of our engaging initiatives, we have also created a discord community, which is a forum for fact-checking professionals and enthusiasts to analyze, b, consult, discuss and endorse many articles and latest evolving technologies related to the domain of fact-checking.<a href="https://discord.gg/wJT3BmjP">https://discord.gg/wJT3BmjP</a></p>
                 </div>
             </section>
             <Footer designed={[{ name: "Arnav", mail: "mailto:Cs21b009@smail.IITM.AC.in " }]} />
