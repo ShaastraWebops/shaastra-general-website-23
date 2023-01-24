@@ -27,7 +27,7 @@ function KnowMoreModal(props) {
           {
             props.data?.registrationType == 'TEAM' && <p><b>Team Size: </b> {props.data?.teamSize} </p>
           }
-          {
+           {
             props.data?.vertical == 'WORKSHOPS' &&   <p><b>Registration Fee: </b> {props.data?.registrationfee? props.data?.registrationfee : 'None'}</p>
           }
           <p><b>Event Date: </b>{props.data?.eventTimeFrom ? 
@@ -42,7 +42,7 @@ function KnowMoreModal(props) {
           <p className="ws-modal-a"><b>Requirements: </b> {props.data?.registrationfee ? <a href={props.data?.requirements.split(" ")[2]}>{props.data?.requirements.split(" ")[2]}</a> : <p>{props.data?.requirements}</p>}
           </p>
           <br></br>
-         {/* {
+         {
           props.data?.faqs &&  <h4>FAQS</h4>
          }
           {
@@ -56,7 +56,7 @@ function KnowMoreModal(props) {
                 </p>
               )
             })
-          } */}
+          }
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide} className="close-ws-btn">Close</Button>

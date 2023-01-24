@@ -65,6 +65,7 @@ import img83 from "../Images/Hiker Wolf.png";
 import img84 from "../Images/tattoo-nobg.png";
 
 import "../styles/styles.css"
+
 import NavBar from './navigation/NavBar'
 import Footer from './Footer'
 
