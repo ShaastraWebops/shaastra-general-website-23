@@ -63,6 +63,7 @@ import img81 from "../Images/Abati-Logo.png";
 import img82 from "../Images/chennaigrowmore.png";
 import img83 from "../Images/Hiker Wolf.png";
 import img84 from "../Images/tattoo-nobg.png";
+import img85 from "../Images/sketchers.png";
 
 import "../styles/styles.css"
 
@@ -308,6 +309,12 @@ const Spons = () => {
                                 <h2 className="title-2">Gaming Partner</h2>
                             </div>
                         </a>
+                        {/* <a href="./">
+                            <div className="cards-events1">
+                                <img src={img85} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Active Partner</h2>
+                            </div>
+                        </a> */}
                         <a href="https://www.fastrack.in/shop/perfumes?cm_sp=headerl2-_-watches-_-viewallbar&utm_source=fest&utm_medium=fest&utm_campaign=fastrackperfumesbrandcampaign2022">
                             <div className="cards-events1">
                                 <img src={img54} alt="" className='imp-spons1'/>
@@ -428,12 +435,12 @@ const Spons = () => {
                                 <h2 className="title-2">Journaling sponsor</h2>
                             </div>
                         </a>
-                        <a href="https://www.stucred.com/">
+                        {/* <a href="https://www.stucred.com/">
                             <div className="cards-events1">
                                 <img src={img70} alt="" className='imp-spons1'/>
                                 <h2 className="title-2">Student Credit Partner</h2>
                             </div>
-                        </a>
+                        </a> */}
                         <a href="https://macmillaneducation.in/">
                             <div className="cards-events1">
                                 <img src={img78} alt="" className='imp-spons1'/>

@@ -278,6 +278,12 @@ function CardComponent({data: el}){
             {
               window.location.href = el?.requirements
             }
+            else if (el?.name==="TinyML"){
+              window.location.assign("https://pages.razorpay.com/pl_L7zPm8TF8peAQ3/view")
+            }
+            else if (el?.name==="Arduino & IoT"){
+              window.location.assign("https://pages.razorpay.com/pl_L7zbwhRNjYI8bY/view");
+            }
             else if (el?.registrationType === 'INDIVIDUAL'){
                 if (el?.registrationfee !== '0') {
                   await registerMutation({
