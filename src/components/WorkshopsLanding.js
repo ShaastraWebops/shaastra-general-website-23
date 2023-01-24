@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useQuery } from "@apollo/client";
 import { gql } from "@apollo/client";
 import { Spacer, HStack } from "@chakra-ui/react";
-import moment from "moment"
+import moment from 'moment'
 import NavBar from "./navigation/NavBar";
 import Footer from "./Footer";
 import TopBar from "./TopBar";
@@ -48,17 +48,6 @@ function WorkshopsLanding() {
       filter: "WORKSHOPS",
     },
   });
-
-//   if(data?.getEvents){
-//     const arr = data?.getEvents?.events
-// const sortByDate = arr => {
-//    const sorter = (a, b) => {
-//     console.log(new Date(a.registrationCloseTime))
-//       return new Date(a.registrationCloseTime).getTime() - new Date(b.registrationCloseTime).getTime();
-//    }
-//    arr.sort(sorter);
-// }
-//   }
 
   // console.log(data?.getEvents.events);
 
@@ -121,7 +110,8 @@ function WorkshopsLanding() {
           </div>
           <div className="glassmorphic2" id="list">
             <div className="wrapper">
-              {data?.getEvents?.events?.map((el) => {
+              {arr.map((el) => {
+                console.log(el);
                 return <CardComponent data={el} key={el.id} />;
               })}
             </div>

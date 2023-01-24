@@ -6,20 +6,26 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
+import rave from "../Images/rave.jpeg"
+import envisage from "../Images/envisage.jpeg"
 const Events = ({pos}) => {
     return (
-        <div className="events-landing" style={ {
+        <div className="events-landing-home" style={ {
         
             transform: 'translateZ('+pos+'px)',
             
             }}>
-            <div className="events-heading">
+            {/* <div className="events-heading">
                 EVENT HIGHLIGHTS
+            </div> */}
+            <div>
+                <img src={rave}></img>
             </div>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 spaceBetween={20}
-                slidesPerView={3}
+                slidesPerView={2}
                 navigation
                 autoplay={{ delay: 2500, disableOnInteraction: false }}
                 pagination={{ clickable: true }}
@@ -36,72 +42,26 @@ const Events = ({pos}) => {
                     },
 
                     1222: {
-                        slidesPerView: 3,
+                        slidesPerView: 2,
                     }
                 }}
             >
                 <SwiperSlide><div className="events-hexagon">
                     <div className="shape">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Jn0L5sxV4-pOZKEXnJ0luQIFQCrIMvMgUQ&usqp=CAU" alt="" />
+                        <img src={rave} alt="" />
                         <div className="events-content">
                             <div>
                                 <h2>Some Events</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae delectus saepe maiores aliquid dolorem.</p>
                             </div>
                         </div>
                     </div>
                 </div></SwiperSlide>
                 <SwiperSlide><div className="events-hexagon">
                     <div className="shape">
-                        <img src="https://www.bsigroup.com/globalassets/localfiles/375x275/conference-media-center-375x275.jpg" alt="" />
+                        <img src={envisage} alt="" />
                         <div className="events-content">
                             <div>
-                                <h2>Some Events</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae delectus saepe maiores aliquid dolorem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div></SwiperSlide>
-                <SwiperSlide><div className="events-hexagon">
-                    <div className="shape">
-                        <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/irving-redesign/Events_Page_Header_2903ed9c-40c1-4f6c-9a69-70bb8415295b.jpg" alt="" />
-                        <div className="events-content">
-                            <div>
-                                <h2>Some Events</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae delectus saepe maiores aliquid dolorem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div></SwiperSlide>
-                <SwiperSlide><div className="events-hexagon">
-                    <div className="shape">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Jn0L5sxV4-pOZKEXnJ0luQIFQCrIMvMgUQ&usqp=CAU" alt="" />
-                        <div className="events-content">
-                            <div>
-                                <h2>Some Events</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae delectus saepe maiores aliquid dolorem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div></SwiperSlide>
-                <SwiperSlide><div className="events-hexagon">
-                    <div className="shape">
-                        <img src="https://www.bsigroup.com/globalassets/localfiles/375x275/conference-media-center-375x275.jpg" alt="" />
-                        <div className="events-content">
-                            <div>
-                                <h2>Some Events</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae delectus saepe maiores aliquid dolorem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div></SwiperSlide>
-                <SwiperSlide><div className="events-hexagon">
-                    <div className="shape">
-                        <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/irving-redesign/Events_Page_Header_2903ed9c-40c1-4f6c-9a69-70bb8415295b.jpg" alt="" />
-                        <div className="events-content">
-                            <div>
-                                <h2>Some Events</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae delectus saepe maiores aliquid dolorem.</p>
+                                <h2>Envisage Show</h2>
                             </div>
                         </div>
                     </div>

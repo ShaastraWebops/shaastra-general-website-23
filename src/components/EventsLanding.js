@@ -10,8 +10,6 @@ import Footer from "./Footer";
 import TopBar from "./TopBar";
 import { Button, ChakraProvider } from "@chakra-ui/react";
 import moment from 'moment'
-
-
 const GET_EVENTS = gql`
   query GetEvents($filter: String) {
     getEvents(filter: $filter) {
@@ -48,10 +46,14 @@ function EventsLanding() {
       filter: "",
     },
   });
-  console.log( vertical);
+  console.log(data?.getEvents.events, vertical);
+
   if (loading) return "Loading...";
   if (error) return <pre>{error.message}</pre>;
   if (data) {
+    let searchedEvents = data?.getEvents.events.filter((event) =>
+      event.name.toLowerCase().includes("BIOGEN".toLowerCase())
+    );
     var arr = data?.getEvents?.events
     const sortByDate = arr => {
        const sorter = (a, b) => {
@@ -64,9 +66,6 @@ function EventsLanding() {
     };
     arr = sortByDate(arr);
     console.log(arr);
-    let searchedEvents = data?.getEvents.events.filter((event) =>
-      event.name.toLowerCase().includes("BIOGEN".toLowerCase())
-    );
     console.log(data);
     return (
       <body>
@@ -81,7 +80,7 @@ function EventsLanding() {
                 text-anchor="middle"
                 y="50%"
               >
-                COMPETITIONS
+                EVENTS
               </text>
             </svg>
 
@@ -94,7 +93,7 @@ function EventsLanding() {
                     .scrollIntoView({ behavior: "smooth" })
                 }
               >
-                Explore Competitions{" "}
+                Explore Events{" "}
               </button>{" "}
             </div>
           </div>
@@ -136,7 +135,8 @@ function EventsLanding() {
               </ChakraProvider>
             </div>
             <div className="wrapper">
-              {arr?.map((el) => {
+              {arr.map((el) => {
+                console.log(el);
                 if (el.vertical !== "WORKSHOPS") {
                   return <CardComponent data={el} key={el.id} />;
                 }
