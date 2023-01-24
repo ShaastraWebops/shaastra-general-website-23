@@ -58,7 +58,6 @@ import img76 from "../Images/Chaos_Entertainment.png";
 import img77 from "../Images/ak.png";
 
 import "../styles/styles.css"
-
 import NavBar from './navigation/NavBar'
 import Footer from './Footer'
 

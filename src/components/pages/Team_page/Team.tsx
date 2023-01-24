@@ -151,7 +151,7 @@ const Team = (props: Props) => {
       id:10,
       mailId: "mailto:mahboob@smail.iitm.ac.in",
       name: "Mahboob Ali",
-      dept: "Evolve (Spotlight, Summit, Debunk)",
+      dept: "Evolve",
       social_links: {
         whatsapp:"https://wa.me/9207317647",
         mailid: "mailto:mahboob@smail.iitm.ac.in",
@@ -165,7 +165,7 @@ const Team = (props: Props) => {
       id:11,
       mailId: "mailto:pranavsrichinta@smail.iitm.ac.in",
       name: "Pranav Srichinta",
-      dept: "Evolve(Spotlight, Summit, Debunk)",
+      dept: "Evolve",
       social_links: {
         whatsapp:"https://wa.me/7619396661",
         mailid: "mailto:pranavsrichinta@smail.iitm.ac.in",
@@ -179,7 +179,7 @@ const Team = (props: Props) => {
       id:12,
       mailId: "mailto:be19b026@smail.iitm.ac.in",
       name: "Papisetty Lakshmi Sowmya Sri",
-      dept: "Finance (Shaastra Passport, Merchandise)",
+      dept: "Finance",
       social_links: {
         whatsapp:"https://wa.me/8897339866",
         mailid: "mailto:be19b026@smail.iitm.ac.in",
@@ -193,7 +193,7 @@ const Team = (props: Props) => {
       id:13,
       mailId: "mailto:ch19b102@smail.iitm.ac.in",
       name: "Mahesh R",
-      dept: "Finance (Shaastra Passport, Merchandise)",
+      dept: "Finance",
       social_links: {
         whatsapp:"https://wa.me/9344814661",
         mailid: "mailto:ch19b102@smail.iitm.ac.in",
@@ -207,7 +207,7 @@ const Team = (props: Props) => {
       id:14,
       mailId: "mailto:bs19b004@smail.iitm.ac.in",
       name: "Anchal Pandey",
-      dept: "Operations & Infrastructure Planning (Catering, Hospitality)",
+      dept: "Operations & Infrastructure Planning",
       social_links: {
         whatsapp:"https://wa.me/6387640233",
         mailid: "mailto:bs19b004@smail.iitm.ac.in",
@@ -234,13 +234,13 @@ const Team = (props: Props) => {
     {
       id:15,
       mailId: "mailto:me19b124@smail.iitm.ac.in",
-      name: "Vyshnavi",
+      name: "Vyashnavi",
       dept: "Publicity",
       social_links: {
         whatsapp:"https://wa.me/6301308213",
         mailid: "mailto:me19b124@smail.iitm.ac.in",
-        linkedIn: "/team",
-        instagram: "/team",
+        linkedIn: "https://www.linkedin.com/in/rupa-kashameni-1495831b0",
+        instagram: "https://www.instagram.com/rupa_lucky07",
       },
       //desc: "",
       imgURL: "",

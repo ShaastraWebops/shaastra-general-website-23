@@ -28,7 +28,7 @@ const About = ({ pos }) => {
             various engineering, science, and technology competitions, summits,
             lectures, video conferences, exhibitions, demonstrations and
             workshops. The festival is traditionally held over four days and
-            four nights from 26th to 29th January. It has so far seen twenty-two
+            four nights from 26th to 29th January. It has so far seen twenty-one
             editions, having started in its current avatar in the year 2000.
             Shaastra is entirely student-managed and is the first such event in
             the world to be ISO 9001:2015 certified.

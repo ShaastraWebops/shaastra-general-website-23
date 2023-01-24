@@ -19,7 +19,7 @@ const Envisage = () => {
   return (
     <body>
       <TopBar />
-      <NavBar />
+      <NavBar />  
       <div className='env-container'>
         <div className='env-heading'>ENVISAGE</div>
         <div className='env-vision'>
@@ -301,7 +301,7 @@ const Envisage = () => {
           </Swiper>
         </div>
       </div>
-      <Footer designed={[{ name: " Akshay", mail: "mailto:ce21b006@smail.iitm.ac.in" }]} />
+      <Footer designed={[{name: " Akshay",mail:"mailto:ce21b006@smail.iitm.ac.in"}]}/>
     </body>
   )
 }
