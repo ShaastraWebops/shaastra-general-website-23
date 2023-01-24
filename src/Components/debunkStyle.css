@@ -50,20 +50,19 @@ h2 {
 
 
 #debimg1 {
-    background: url(../../public/IMG_2082.jpg) no-repeat center center;
-    background-size: cover;
-    border-radius: 10%;
-    width: calc(40% - 5vw);
-    margin-left: 5%;
-    margin-top: -80px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: url(../themereveal.jpg) no-repeat center;
+    background-size: 40%;
+    border-radius: 100%;
 }
 
 #debimg2 {
-    background: url(../../public/IMG20221019113455.jpg) no-repeat center center;
-    background-size: cover;
-    border-radius: 10%;
-    width: calc(40% - 5vw);
-    margin-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: url(../unnamed.jpg) no-repeat center;
+    background-size: 40%;
+    border-radius: 100%;
 }
 
 

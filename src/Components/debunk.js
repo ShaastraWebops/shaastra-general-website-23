@@ -43,6 +43,7 @@ function debunk() {
                     <br></br>
                     <h3>Theme Reveal</h3>
                     <div className="debin debin1">
+                        <div id="debimg1"></div>
                         <div>
                             <p>
                                 Our first event during this tenure was a theme reveal event (in August 2022) - a Fact v/s Fake crowd engaging interactive quiz. The event proved to be extremely successful with 500+ people participating in a matter of just 3 hours and got students talking about the spread of misinformation in the campus.
@@ -50,7 +51,7 @@ function debunk() {
                             </p>
 
                         </div>
-                        <div id="debimg1"></div>
+
                     </div>
                     <div className="debin debin2">
                         <br></br>
