@@ -217,24 +217,24 @@ const Team = (props: Props) => {
       //desc: "",
       imgURL: photos.oandip_anchal,
     },
-    // {
-    //   id:15,
-    //   mailId: "mailto:bs19b030@smail.iitm.ac.in",
-    //   name: "Tushar",
-    //   dept: "Operations & Infrastructure Planning",
-    //   social_links: {
-    //     whatsapp:"https://wa.me/7737699201",
-    //     mailid: "mailto:bs19b030@smail.iitm.ac.in",
-    //     linkedIn: "https://www.linkedin.com/in/tushar-balani-a22880192",
-    //     instagram: "./",
-    //   },
-      //desc: "",
-    //   imgURL: photos.oandip_tushar,
-    // },
     {
       id:15,
+      mailId: "mailto:bs19b030@smail.iitm.ac.in",
+      name: "Tushar",
+      dept: "Operations & Infrastructure Planning",
+      social_links: {
+        whatsapp:"https://wa.me/7737699201",
+        mailid: "mailto:bs19b030@smail.iitm.ac.in",
+        linkedIn: "https://www.linkedin.com/in/tushar-balani-a22880192",
+        instagram: "./",
+      },
+      //desc: "",
+      imgURL: photos.oandip_tushar,
+    },
+    {
+      id:16,
       mailId: "mailto:me19b124@smail.iitm.ac.in",
-      name: "Vyashnavi",
+      name: "Vyshnavi",
       dept: "Publicity",
       social_links: {
         whatsapp:"https://wa.me/6301308213",
@@ -246,7 +246,7 @@ const Team = (props: Props) => {
       imgURL: "",
     },
     {
-      id:16,
+      id:17,
       mailId: "mailto:me19b124@smail.iitm.ac.in",
       name: "Rupa Lakshmi",
       dept: "Quality Management System",
@@ -260,7 +260,7 @@ const Team = (props: Props) => {
       imgURL: photos.qms_rupa,
     },
     {
-      id:17,
+      id:18,
       mailId: "mailto:ch19b023@smail.iitm.ac.in",
       name: "S U Mrinalini",
       dept: "Shows & Exhibitions",
@@ -274,7 +274,7 @@ const Team = (props: Props) => {
       imgURL: photos.sande_mrinalini,
     },
     {
-      id:18,
+      id:19,
       mailId: "mailto:sauban.asharaf@gmail.com",
       name: "Sauban Asharaf",
       dept: "Shows & Exhibitions",
@@ -288,7 +288,7 @@ const Team = (props: Props) => {
       imgURL: photos.sande_sauban,
     },
     {
-      id:19,
+      id:20,
       mailId: "mailto:ed19b002@smail.iitm.ac.in",
       name: "Anushka Pillai",
       dept: "Sponsorship and PR",

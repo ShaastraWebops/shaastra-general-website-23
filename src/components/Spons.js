@@ -18,7 +18,7 @@ import airbus from "../Images/AIRBUS_White.png"
 import img36 from "../Images/FTL_nobg.png"
 import img37 from "../Images/BioconBiologics.png"
 import img38 from "../Images/Flipkartlogo.png"
-import img39 from "../Images/S_SLogo_nobg.png"
+import img39 from "../Images/surana_logo_white-banner.png"
 import img40 from "../Images/NPTELLogo.png"
 import img41 from "../Images/IITM_BS_Degree_ Black_logo.png";
 import img42 from "../Images/ArcesiumLogo.png"
@@ -30,32 +30,39 @@ import img47 from "../Images/R2D2 logo.png";
 import img48 from "../Images/topengineers.png";
 import img49 from "../Images/dataleads.png";
 import img50 from "../Images/EatSure Logo.png";
-import img52 from "../Images/geekforgeeks.png";
+import img52 from "../Images/GFG-gg-logo.svg";
 import img53 from "../Images/Codechef logo.png";
 import img54 from "../Images/fastrackwhite.png";
 import img55 from "../Images/MONSTER.png";
 import img56 from "../Images/unibic.png";
-import img57 from "../Images/This_1-01.png";
+import img57 from "../Images/cc logo.jfif";
 import img58 from "../Images/Suryan_FM.png";
 import img59 from "../Images/berado_logo_black.png";
 import img60 from "../Images/GATSBY white.png";
 import img61 from "../Images/DCX_Logo.png";
 import img62 from "../Images/Q'sica.png";
-import img63 from "../Images/dr aruns.png";
+import img63 from "../Images/dr arun.png";
 import img64 from "../Images/GrabOn Logo.png";
-import img65 from "../Images/iris.png";
+import img65 from "../Images/iris 2 (2).png";
 import img66 from "../Images/Treebo.png";
 import img67 from "../Images/Times.1a73488a.jpg";
 import img68 from "../Images/ACR_IITM.png";
 import img69 from "../Images/frozen logo ai-02 (white).png";
 import img70 from "../Images/stucred.png";
 import img71 from "../Images/Neorah Logo Png.png";
-import img72 from "../Images/Wedtree Logo purple.png";
+import img72 from "../Images/Wedtree-Logo-purple-lighter.png";
 import img73 from "../Images/V20_Cricket_Banner.png";
 import img74 from "../Images/Abs-(illustrator).png";
 import img75 from "../Images/FPJ Logo .png";
 import img76 from "../Images/Chaos_Entertainment.png";
 import img77 from "../Images/ak.png";
+import img78 from "../Images/ME_imprint_land_cmyk.png";
+import img79 from "../Images/specsmakers.png";
+import img80 from "../Images/asus-blackbg.png";
+import img81 from "../Images/Abati-Logo.png";
+import img82 from "../Images/chennaigrowmore.png";
+import img83 from "../Images/Hiker Wolf.png";
+import img84 from "../Images/tattoo-nobg.png";
 
 import "../styles/styles.css"
 import NavBar from './navigation/NavBar'
@@ -147,7 +154,7 @@ const Spons = () => {
                         <a href="https://www.edufabrica.net/">
                             <div className="slide ">
                                 <img src={img6} alt="" />
-                                <h2 className="title">Biology Workshop Sponsor</h2>
+                                <h2 className="title" style={{width:"300px"}}>Biology Workshop Sponsor</h2>
                             </div>
                         </a>
                     </section>
@@ -197,15 +204,15 @@ const Spons = () => {
                     </div></a>
 
                     <a href="http://www.bioconbiologics.com/"><div class="cards-events">
-                        <img src={img37} alt="" className='imp-spons1' />
+                        <img src={img37} alt="" className='imp-spons1' style={{height:"100px"}}/>
                         {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                     </div></a>
                     <a href="https://suranaandsurana.com/"><div class="cards-events">
-                        <img src={img39} alt="" className='imp-spons1' />
+                        <img src={img39} alt="" className='imp-spons1' style={{height:"100px"}}/>
                         {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                     </div></a>
                     <a href="https://nptel.ac.in/"><div class="cards-events">
-                        <img src={img40} alt="" className='imp-spons1' />
+                        <img src={img40} alt="" className='imp-spons1' style={{height:"100px"}}/>
                         {/* <h2 class="title-1">Prize Money Sponsor</h2> */}
                     </div></a>
                     <a href="https://onlinedegree.iitm.ac.in/">
@@ -248,7 +255,7 @@ const Spons = () => {
                         </a>
                         <a href="https://r2d2.iitm.ac.in">
                             <div className="cards-events1">
-                                <img src={img47} alt="" className='imp-spons1'/>
+                                <img src={img47} alt="" className='imp-spons1'style={{height:"100px"}}/>
                                 <h2 className="title-1">Makeathon Sponsor</h2>
                             </div>
                         </a>
@@ -260,13 +267,13 @@ const Spons = () => {
                         </a>
                         <a href="http://www.topengineersindia.com">
                             <div className="cards-events1">
-                                <img src={img48} alt="" className='imp-spons1'/>
+                                <img src={img48} alt="" className='imp-spons1' style={{height:"100px"}}/>
                                 <h2 className="title-1">Workshop Sponsor</h2>
                             </div>
                         </a>
                         <a href="./">
                             <div className="cards-events1">
-                                <img src={img77} alt="" className='imp-spons1'/>
+                                <img src={img77} alt="" className='imp-spons1' style={{height:"100px"}}/>
                                 <h2 className="title-1">Health Partner</h2>
                             </div>
                         </a>
@@ -294,6 +301,12 @@ const Spons = () => {
                 </div>
                 <div className='spons-events' style={{fontSize:"30px"}}>Kind Sponsors</div>
                 <div className="slider">
+                        <a href="https://rog.asus.com/in/">
+                            <div className="cards-events1">
+                                <img src={img80} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Gaming Partner</h2>
+                            </div>
+                        </a>
                         <a href="https://www.fastrack.in/shop/perfumes?cm_sp=headerl2-_-watches-_-viewallbar&utm_source=fest&utm_medium=fest&utm_campaign=fastrackperfumesbrandcampaign2022">
                             <div className="cards-events1">
                                 <img src={img54} alt="" className='imp-spons1'/>
@@ -314,7 +327,7 @@ const Spons = () => {
                         </a>
                         <a href="https://shop.continental.coffee/collections/premix">
                             <div className="cards-events1">
-                                <img src={img57} alt="" className='imp-spons1'/>
+                                <img src={img57} alt="" className='imp-spons1' style={{height:"100px"}}/>
                                 <h2 className="title-2">Coffee Partner</h2>
                             </div>
                         </a>
@@ -351,7 +364,7 @@ const Spons = () => {
                         <a href="./">
                             <div className="cards-events1">
                                 <img src={img63} alt="" className='imp-spons1'/>
-                                <h2 className="title-2">Vintage exhibits Partnerr</h2>
+                                <h2 className="title-2">Vintage exhibits Partner</h2>
                             </div>
                         </a>
                         <a href="https://shaastra.grabon.in/">
@@ -362,7 +375,7 @@ const Spons = () => {
                         </a>
                         <a href="https://www.irishomefragrances.com/">
                             <div className="cards-events1">
-                                <img src={img65} alt="" className='imp-spons1'/>
+                                <img src={img65} alt="" className='imp-spons1' style={{height:"100px"}}/>
                                 <h2 className="title-2">Fragrance Sponsor</h2>
                             </div>
                         </a>
@@ -420,10 +433,46 @@ const Spons = () => {
                                 <h2 className="title-2">Student Credit Partner</h2>
                             </div>
                         </a>
+                        <a href="https://macmillaneducation.in/">
+                            <div className="cards-events1">
+                                <img src={img78} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Outreach Partner</h2>
+                            </div>
+                        </a>
                         <a href="https://www.chaosgaming.co.in/">
                             <div className="cards-events1">
                                 <img src={img76} alt="" className='imp-spons1'/>
                                 <h2 className="title-2">Entertainment Partner</h2>
+                            </div>
+                        </a>
+                        <a href="https://www.specsmakers.in/">
+                            <div className="cards-events1">
+                                <img src={img79} alt="" className='imp-spons1'  style={{height:"100px"}}/>
+                                <h2 className="title-2">Eyewear Partner</h2>
+                            </div>
+                        </a>
+                        <a href="https://linktr.ee/46thaikastreet?fbclid=PAAaYMpyQkIEea4_34NbJQVWZWAp2Ac4ivadJUYJichGacqIHROp8aqAxPuuw">
+                            <div className="cards-events1">
+                                <img src={img81} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Traditional Delicacy Sponsor</h2>
+                            </div>
+                        </a>
+                        <a href="https://instagram.com/wal.lpainter?igshid=Mzc0YWU1OWY=">
+                            <div className="cards-events1">
+                                <img src={img82} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Arts Sponsor</h2>
+                            </div>
+                        </a>
+                        <a href="https://hikerwolf.com/">
+                            <div className="cards-events1">
+                                <img src={img83} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Trip Sponsor</h2>
+                            </div>
+                        </a>
+                        <a href="https://instagram.com/idtattoostudio3?igshid=YmMyMTA2M2Y=">
+                            <div className="cards-events1">
+                                <img src={img84} alt="" className='imp-spons1'/>
+                                <h2 className="title-2">Tattoo Sponsor</h2>
                             </div>
                         </a>
 

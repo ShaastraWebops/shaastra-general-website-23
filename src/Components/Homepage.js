@@ -219,7 +219,7 @@ const Homepage=()=> {
           {/* <Square colour={'#fee'} colour2={'#fee'} pos={-5000}/> */}
 
 
-          {/* <Speakers pos={-9000}/> */}
+          <Speakers pos={-9000}/>
           {/* <Events pos={-9000}/> */}
           
           {/* <Events pos={-37500}/> */}

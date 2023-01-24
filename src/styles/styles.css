@@ -29,6 +29,7 @@
     height: auto;
     margin: auto;
     padding: 15px;
+    gap: 15px;
     position: relative;
     width: 100%;
     display: grid;
@@ -48,7 +49,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
+    gap: 15px;
     place-items: center;
     overflow: hidden;
 }
@@ -113,12 +114,16 @@ img {
     /* background: url('./images/TPL.6c79fa68.png'); */
     width: 100%;
     object-fit: contain ;
-    transition: transform 1s;
+    /* transition: transform 1s; */
     height: 100%;
 }
 
-img:hover {
+/* img:hover {
     transform: translateZ(20px);
+} */
+
+.slide:hover{
+    transform: scale(1.15);;
 }
 
 .slider::before,
@@ -288,7 +293,7 @@ img:hover {
     align-items: center;
     flex-direction: column;
     margin: 20px;
-
+    transition: all 0.75s ease-in-out;
     /* margin-left: 37px;
     margin-right: 30px; */
     perspective: 100px;
@@ -320,7 +325,8 @@ img:hover {
     height: 161px;
     display: flex;
     flex-direction: column;
-    /* margin: 10px; */
+    align-items: center;
+    justify-content: space-between;
     border-radius: 10px;
     margin-right: 70px;
     margin-left: 71px;
@@ -364,7 +370,7 @@ img:hover {
 }
 
 .imp-spons1 {
-    height: 75px;
+    height: 85px;
     width: 211px;
 }
 
@@ -465,11 +471,11 @@ img:hover {
     }
     .cards-events {
         height: 130px;
-        width: 150px;
+        width: 200px;
     }
     .cards-events1 {
         height: 130px;
-        width: 150px;
+        width: 200px;
     }
     .imp-spons1 {
         height: 54px;
@@ -486,6 +492,9 @@ img:hover {
         padding: 15px;
         gap:10px;
         grid-template-columns: auto auto;
+    }
+    .imp-spons1{
+        height: 54px !important;
     }
     
 }
