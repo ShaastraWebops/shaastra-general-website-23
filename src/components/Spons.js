@@ -50,7 +50,7 @@ import img68 from "../Images/ACR_IITM.png";
 import img69 from "../Images/frozen logo ai-02 (white).png";
 import img70 from "../Images/stucred.png";
 import img71 from "../Images/Neorah Logo Png.png";
-import img72 from "../Images/Wedtree-Logo-purple-lighter.png";
+import img72 from "../Images/Wedtree Logo (1) copy.png";
 import img73 from "../Images/V20_Cricket_Banner.png";
 import img74 from "../Images/Abs-(illustrator).png";
 import img75 from "../Images/FPJ Logo .png";

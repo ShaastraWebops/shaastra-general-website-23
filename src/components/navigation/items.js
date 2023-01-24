@@ -113,12 +113,12 @@ export const items = [
     },
     {
         id: 7,
-        title: 'Team',
+        title: 'Contact the Team',
         url:'/team',
     },
-    {
-        id: 8,
-        title: 'Contact Us',
-        url:'/contact',
-    }
+    // {
+    //     id: 8,
+    //     title: 'Contact Us',
+    //     url:'/contact',
+    // }
 ]

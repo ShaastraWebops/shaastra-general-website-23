@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4e765380.css",
-    "main.js": "/static/js/main.531b1c21.js",
+    "main.js": "/static/js/main.cf35a535.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
     "static/media/IMG20221019113455.jpg": "/static/media/IMG20221019113455.78bd208df78d76c78eed.jpg",
@@ -101,9 +101,9 @@
     "static/media/DCX_Logo.png": "/static/media/DCX_Logo.bf19eacd02718d8521db.png",
     "static/media/Cubelelo Logo White .png": "/static/media/Cubelelo Logo White .56d2bc781817ef35a48a.png",
     "static/media/GATSBY white.png": "/static/media/GATSBY white.7864a0b8192cac5a6460.png",
+    "static/media/Wedtree Logo (1) copy.png": "/static/media/Wedtree Logo (1) copy.649cc9605ea8df47849e.png",
     "static/media/SLBlight.png": "/static/media/SLBlight.5c4ec1234ba8ce6e366a.png",
     "static/media/dataleads.png": "/static/media/dataleads.fed35e26de64a2b0c942.png",
-    "static/media/Wedtree-Logo-purple-lighter.png": "/static/media/Wedtree-Logo-purple-lighter.58e68308f792f58e5c25.png",
     "static/media/games-logo.jpeg": "/static/media/games-logo.e5140d3ce4f0f56fba56.jpeg",
     "static/media/wellsfargo.jpg": "/static/media/wellsfargo.a15a36b032ee7b4c4e6a.jpg",
     "static/media/Agnikul.png": "/static/media/Agnikul.831177087f1ea750049f.png",
@@ -129,11 +129,11 @@
     "index.html": "/index.html",
     "static/media/GFG-gg-logo.svg": "/static/media/GFG-gg-logo.89169b2837963ab7f7454736c7adb718.svg",
     "main.4e765380.css.map": "/static/css/main.4e765380.css.map",
-    "main.531b1c21.js.map": "/static/js/main.531b1c21.js.map",
+    "main.cf35a535.js.map": "/static/js/main.cf35a535.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e765380.css",
-    "static/js/main.531b1c21.js"
+    "static/js/main.cf35a535.js"
   ]
 }
