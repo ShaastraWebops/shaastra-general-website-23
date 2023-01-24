@@ -3,45 +3,36 @@
 }
 
 .banner {
-    background: url(../../public/banner.jpg) no-repeat center center;
+    background: url(../brain.jpg) no-repeat center center;
     background-size: cover;
     height: 45vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-h1 {
-    color: #F182EB;
-    font-size: calc(4rem + 4vw);
-    font-weight: 700;
-    letter-spacing: 2px;
-    z-index: 2;
-    text-shadow: calc(6px + 0.5vw) calc(6px + 0.5vw) 0px #993094;
-}
 
 
 .aboutdebunk {
     width: 75%;
     margin: auto;
     color: white;
-    text-align: left;
+    text-align: center;
     background-color: black;
 }
 
-p {
-    padding-top: 50px;
-    margin: 0;
-    font-size: 1.2rem;
-    margin-bottom: 50px;
+.aboutdebunk,
+.debin .debin2 {
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 20;
+    padding-bottom: 100px;
 }
 
-h2 {
-    color: #993094;
-    font-size: 3rem;
-    margin-bottom: -20px;
-}
 
 
 .debunkinit {
@@ -53,15 +44,10 @@ h2 {
 
 h2 {
     color: #993094;
-    font-size: 3rem;
+    font-size: 16;
 }
 
-.debin {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 50px;
-    font-size: 1.2rem;
-}
+
 
 #debimg1 {
     background: url(../../public/IMG_2082.jpg) no-repeat center center;
@@ -80,12 +66,6 @@ h2 {
     margin-right: 5%;
 }
 
-
-p {
-    margin: 0;
-    padding-bottom: 50px;
-    font-size: 1.2rem;
-}
 
 h3 {
     font-style: italic;

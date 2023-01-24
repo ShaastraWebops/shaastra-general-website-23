@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.scss";
+import "./debunkStyle.css";
 
 import NavBar from "./navigation/NavBar";
 import Footer from "./Footer";
@@ -13,12 +13,16 @@ function debunk() {
             <section className="debunk-section">
                 <div className="banner">
                     <svg class="signup-heading">
-                        <text x="50%" dominant-baseline="middle" text-anchor="middle" y="50%">
-                            DEBUNK
-                        </text>
+                        <svg class="signup-2">
+                            <text x="50%" dominant-baseline="middle" text-anchor="middle" y="50%">
+                                DEBUNK
+                            </text>
+                        </svg>
                     </svg>
                 </div>
                 <div className="aboutdebunk">
+                    <br></br>
+                    <br></br>
                     <p>
                         Cars melt in Saudi Arabia due to the extreme heat in summers!! Almost believed it, didn’t you?
                         Extremely eye-catching, and in most cases misleading ,these kind of clickbaits and captions
@@ -26,6 +30,8 @@ function debunk() {
 
 
                     </p>
+                    <br></br>
+                    <br></br>
                     <h2>WHO ARE WE?</h2>
                     <p>
                         Debunk is India’s first ever student-run initiative to address the growing bane of misinformation in popular media. Through a series of innovative events, competitions, and creative collaborations, we aim to strengthen awareness among students, researchers, industry and the general public about the importance of media literacy and equip them with modern fact-checking tools which will enable them to discern fact from fake as they fight their way across manipulative content in media.
@@ -33,6 +39,8 @@ function debunk() {
                 </div>
                 <div className="debunkinit">
                     <h2>OUR EVENTS AND INITIATIVES:</h2>
+                    <br></br>
+                    <br></br>
                     <h3>Theme Reveal</h3>
                     <div className="debin debin1">
                         <div>
@@ -45,6 +53,8 @@ function debunk() {
                         <div id="debimg1"></div>
                     </div>
                     <div className="debin debin2">
+                        <br></br>
+                        <br></br>
                         <h3>Fact Checking Workshops</h3>
                         <div id="debimg2"></div>
                         <div>
@@ -53,6 +63,8 @@ function debunk() {
                             </p></div>
                     </div>
                     <div className="deb-news">
+                        <br></br>
+                        <br></br>
                         <h3>Debunk Newsletter</h3>
                         <p>The partnership also runs a monthly newsletter, ‘Debunk by BOOM’, covering the latest happenings in the misinformation space. </p>
                         <div className="deb-news-img1"></div>
@@ -62,15 +74,22 @@ function debunk() {
                     <div className="discord">Discord Community</div>
                     <p>As a part of our engaging initiatives, we have also created a discord community, which is a forum for fact-checking professionals and enthusiasts to analyze, b, consult, discuss and endorse many articles and latest evolving technologies related to the domain of fact-checking.<a href="https://discord.gg/wJT3BmjP">https://discord.gg/wJT3BmjP</a></p>
                     <div className="debunkathon">
+                        <br></br>
+                        <br></br>
                         <h3>Debunkathon</h3>
                         <p>An AI-ML based Hackathon to build innovative implementable solutions to growing misinformation (such as detection using NLP, source detection, deep fakes, etc.). We have partnered with DataLeads - Fact Shaala in organizing this competition. The problem statement will be out soon! Register now </p>
                     </div>
                     <div className="aifcb">
+                        <br></br>
+                        <br></br>
                         <h3>All India Fact Check Battle</h3>
+
                         <p>Debunk in association with BOOM is proud to announce the All India Fact Check Battle, our flagship fact-checking competition. Started in the 2nd week of December,  Fact Check Battle runs through a series of contests that dwell into media literacy and news verification over three rounds, each testing participants’ fact-checking mettle in different ways. Fact Check Battle also includes mentorship by professional fact-checkers across the country. The finals will be held during Shaastra 2023 in IITM campus.</p>
                         <div className="aifcb-img"></div>
                     </div>
                     <div className="misinfo">
+                        <br></br>
+                        <br></br>
                         <h3>Conference on Technical and Policy _______ of Misinformation</h3>
                         <p>We are organizing the (conf name). The conference aims to propose the first-ever policy suggestion to the government on regulating the use of technical tools concerning misinformation. The conference will happen on the 28th of January, 2023 with speakers from technical and policy-making backgrounds highlighting the necessity of policy in the newly emerging technologies, with a special focus on Deepfakes. (2 posters of panelists)
                         </p>
