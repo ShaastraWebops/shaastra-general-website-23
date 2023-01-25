@@ -27,7 +27,9 @@ function KnowMoreModal(props) {
           {
             props.data?.registrationType == 'TEAM' && <p><b>Team Size: </b> {props.data?.teamSize} </p>
           }
-          <p><b>Registration Fee: </b> {props.data?.registrationfee? props.data?.registrationfee : 'None'}</p>
+          {
+            props.data?.vertical == 'WORKSHOPS' && <p><b>Registration Fee: </b> {props.data?.registrationfee? props.data?.registrationfee : 'None'}</p>
+          }
           <p><b>Event Date: </b>{props.data?.eventTimeFrom ? 
           moment(parseInt(props.data?.eventTimeFrom)).clone().tz("Europe/London").format().replace('T', ' ').slice(0,19).split(' ')[0]
           : 'TBD'}</p>

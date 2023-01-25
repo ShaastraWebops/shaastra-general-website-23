@@ -11,7 +11,7 @@ export const items = [
         subitems: [
             {   
                 id: 1,
-                title: 'Events',
+                title: 'Competitions',
                 url:'/events',
             },
             {
@@ -24,23 +24,23 @@ export const items = [
                 title: 'Exhibitions',
                 url:'/exhibition',
             },
-            {   
-                id: 4,
-                title: 'Blitz Chess',
-                url:'./',
-            },
+            // {   
+            //     id: 4,
+            //     title: 'Blitz Chess',
+            //     url:'./',
+            // },
             {
-                id: 5,
+                id: 4,
                 title: 'Summit',
                 url:'https://summit.shaastra.org',
             },
             {
-                id: 6,
+                id: 5,
                 title: "Research Conference",
                 url: 'https://symbiosis.shaastra.org',
             },
             {
-                id: 7,
+                id: 6,
                 title: 'Tech & Innovation Fair',
                 url:'/tif',
             }
@@ -54,7 +54,7 @@ export const items = [
             {
                 id: 1,
                 title: 'Shows',
-                url:'./',
+                url:'/shows',
             },
             {
                 id: 2,
@@ -113,12 +113,7 @@ export const items = [
     },
     {
         id: 7,
-        title: 'Contact the Team',
+        title: 'Contact our team',
         url:'/team',
-    },
-    // {
-    //     id: 8,
-    //     title: 'Contact Us',
-    //     url:'/contact',
-    // }
+    }
 ]
