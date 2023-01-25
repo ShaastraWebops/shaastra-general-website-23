@@ -96,7 +96,7 @@ const Homepage=()=> {
 
             height: '100vh',
             width: '100vw',
-            transition: '5s',
+            transition: '3s',
             transformStyle: 'preserve-3d',
             transform: 'translateZ('+checkPoint[cpCount]+'px)',
             
@@ -112,7 +112,7 @@ const Homepage=()=> {
       setEnvStyle({
         height: "100vh",
         width: "100vw",
-        transition: "5s",
+        transition: "3s",
         transformStyle: "preserve-3d",
         transform: "translateZ(" + checkPoint[cpCount] + "px)",
       });
@@ -170,7 +170,7 @@ const Homepage=()=> {
           
           <div className='control-btns'>
           <div className='forward-btn' onClick={(e)=>handleNavigationForward(e)}></div>
-          {/* <div className='back-btn' onClick={(e)=>handleNavigationBackward(e)}>back</div> */}
+          <div className='back-btn' onClick={(e)=>handleNavigationBackward(e)}>back</div>
           </div>
           {/* <div className='text-phrase' onClick={()=>window.open("./Workshops")}>
             <h3>Enroll for workshops now!</h3>
@@ -182,7 +182,7 @@ const Homepage=()=> {
             Tap to see more!
           </div> */}
         <div className='env' style={envStyle} >
-          
+        
           
           {/* <Logo pos={0}/> */}
 

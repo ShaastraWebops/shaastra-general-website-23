@@ -31,18 +31,12 @@ import Workshop from "./components/Workshop";
 import WorkshopsLanding from "./components/WorkshopsLanding"
 import GetCSV from "./components/Getcsv";
 import ChessBlitz from "./blitz-chess";
-
-import Temp from "./components/tempHome";
-
 import Contact from "./Contact";
+import Spotlight from "./components/Spotlight";
+import Shows from "./components/Shows";
 import React, { useState, useEffect } from "react";
 import ReactGA from 'react-ga';
 
-import { Modal2 } from "./components/Modal2";
-import { Container, ButtonModal } from "./components/modalContainer";
-import Spotlight from "./components/Spotlight";
-import Shows from "./components/Shows";
-import Faq from "./components/faq"
 
 const TRACKING_ID = "UA-42581770-14";
 ReactGA.initialize(TRACKING_ID);
@@ -100,7 +94,6 @@ function App() {
           {/* <Route path="/pay/:id" element={<PayRegister />} /> */}
           <Route path="/socialendeavours" element={<Vastra />} />
           <Route path="/blitzchess" element={<ChessBlitz />} />
-		  <Route path="/faq" element={<Faq/>}/>
         </Routes>
         {auth === "admin" && (
           <Routes>

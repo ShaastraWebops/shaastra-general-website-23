@@ -421,7 +421,20 @@ top:0%;
 {    transform: translateZ(-4280px);}
 
 
-
+    .tap-phrase {
+        background: #16141673 !important;
+        position: absolute !important;
+        top: 75% !important;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 20px !important;
+        width: auto;
+        color: #fff9f9 !important;
+        font-family: Rubik,sans-serif;
+        font-weight: 700 !important;
+        z-index: 20;
+    }
 
 /*NEON COUNTDOWN*/
 .countdown
@@ -462,6 +475,7 @@ top:0%;
     transform-style: preserve-3d;
     
 }
+
 .countdown-box::before
 {
     content: '';
@@ -569,31 +583,34 @@ top:0%;
  .back-btn {
 
     position: absolute;
-    color: #db3eb1;
-    border: 3px solid #db3eb1;
+    color: #f8f3fa !important;
+    border: 3px solid #8a33b2 !important;
     display: flex;
     border-radius:15px;
-    text-align: center;
+    text-align: center !important;
     align-items: center;
     padding-top: 2px;
-    padding-left: 10px;
+    padding-left: 10px !important;
+    padding-left: 10px !important;
+
     margin-left: 3vh;
-    font-size: 25px;
-    font-family: Rubik;
-    letter-spacing:5px;
+    bottom: 80% !important;
+    font-size: 24px;
+    font-family: Rubik, sans-serif !important;
+    letter-spacing:2px !important;
     cursor: pointer;
     font-weight: bold;
-    filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+    filter: drop-shadow(0 0 15px #9a22d2) drop-shadow(0 0 50px #9d25d4) contrast(2) brightness(2) !important;
     transition: .5s;
     height: 6vh;
     width: 6vw;
   }
   
   .back-btn:hover {
-    color: white;
+    color: white !important;
     padding: auto;
-    background-color: #db3eb1;
-    filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+    background-color: #250534 !important;
+    filter: drop-shadow(0 0 20px #9124c2) contrast(2) brightness(2) !important;
   }
 .text-phrase {
     background: transparent;
@@ -818,9 +835,12 @@ top:0%;
     padding: 8px 18px;
     border-radius: 0px  !important;
 }
+.clacCW{
+    margin-bottom: 0 !important;
+}
     .back-btn{
         margin-left: 3vh;
-    margin-top: -35vh;
+    /* margin-top: 35vh !important; */
     height: 4vh;
     margin: 4vh;
     width: 9.5vw;
@@ -854,5 +874,8 @@ top:0%;
     }
     .gkTrck h1{
         margin-top: 5vh;
+    }
+    .clacCW{
+        margin-bottom: 0 !important;
     }
 }
