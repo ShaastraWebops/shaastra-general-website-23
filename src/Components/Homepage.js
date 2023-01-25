@@ -67,7 +67,7 @@ const Homepage=()=> {
   const [cpCount, setCpCount]=useState(1);
   // const [checkPoint, setCheckPoint]=useState([0,7480,14480,21480,30580,37480,44480]);
   // const [checkPoint, setCheckPoint]=useState([0,2380,4980,6980,8980,9980]);
-  const [checkPoint, setCheckPoint]=useState([0,2380,4980,6980,8980]);
+  const [checkPoint, setCheckPoint]=useState([0,2380,4980,6980,8980, 10000]);
   const [depth, setDepth]=useState(checkPoint[cpCount]);
   const [envStyle, setEnvStyle]=useState({
 
@@ -132,37 +132,39 @@ const Homepage=()=> {
     setIsHovering(false);
   };
   const divvstyle ={
-    top: "0%",
+    top: "-2%",
     left: "10%",
     transform: "translate(0%, 60%)",
-    border: "1px solid #666",
     borderRadius: "5px",
-    background: "#7E10B3",   
+    background: "linear-gradient(224.52deg, #0B0454 1.63%, #7E10B3 70.6%, rgba(130, 16, 176, 0.88) 90.31%, rgba(162, 17, 156, 0.82) 101.2%)",   
     position: "fixed",
-    fontSize:"20px",
+    fontSize:"17px",
     color:"white",
     zIndex:"100000000",
-    padding: "5px 5px 5px 5px"
+    padding: "15px 10px"
   }
   return (
     <div className="App home">
       <TopBar />
       <NavBar />
       
-      <ButtonModal onClick={openModal2}>Sales!</ButtonModal>
+      <ButtonModal onClick={openModal2}>Merch</ButtonModal>
       <Container>
         <Modal2 showModal2={showModal2} setShowModal2={setShowModal2} />
       </Container>
-      <div>
+      <div style={{"display": "flex", "flexDirection": "row", "width": "fit-content"}}>
       <div>
       <a href="https://sales.shaastra.org"><div
           onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOut}
-          style={divvstyle}>
-          SHAASTRA PASSPORT!
+          style={divvstyle} className="mobdivPop">
+          Passport
         </div></a>
         {isHovering && <PassportDiv />}
       </div>
+      <div className='text-phrase' onClick={()=>window.open("./Workshops")}>
+            <h3>Enroll for workshops now!</h3>
+          </div>
     </div>
       <div className='uni'>
           
@@ -170,9 +172,9 @@ const Homepage=()=> {
           <div className='forward-btn' onClick={(e)=>handleNavigationForward(e)}></div>
           {/* <div className='back-btn' onClick={(e)=>handleNavigationBackward(e)}>back</div> */}
           </div>
-          <div className='text-phrase' onClick={()=>window.open("./Workshops")}>
+          {/* <div className='text-phrase' onClick={()=>window.open("./Workshops")}>
             <h3>Enroll for workshops now!</h3>
-          </div>
+          </div> */}
           <div className='acco-phrase' onClick={()=>window.open("https://hospitality.shaastra.org/")}>
             <h3>Accomodation</h3>
           </div>
@@ -217,7 +219,7 @@ const Homepage=()=> {
           {/* <Square colour={'#fee'} colour2={'#fee'} pos={-5000}/> */}
 
 
-          {/* <Speakers pos={-9000}/> */}
+          <Speakers pos={-9000}/>
           {/* <Events pos={-9000}/> */}
           
           {/* <Events pos={-37500}/> */}
@@ -225,7 +227,7 @@ const Homepage=()=> {
           {/* <Square colour={'#fee'} colour2={'#fee'} pos={-7000}/> */}
 
 
-          {/* <Events pos={-10000}/> */}
+          <Events pos={-10000}/>
 
           {/* <Footer pos={-44500}/> */}
         </div>

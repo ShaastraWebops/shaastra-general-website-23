@@ -11,7 +11,7 @@ export const items = [
         subitems: [
             {   
                 id: 1,
-                title: 'Events',
+                title: 'Competitions',
                 url:'/events',
             },
             {
@@ -24,23 +24,23 @@ export const items = [
                 title: 'Exhibitions',
                 url:'/exhibition',
             },
-            {   
-                id: 4,
-                title: 'Blitz Chess',
-                url:'./',
-            },
+            // {   
+            //     id: 4,
+            //     title: 'Blitz Chess',
+            //     url:'./',
+            // },
             {
-                id: 5,
+                id: 4,
                 title: 'Summit',
                 url:'https://summit.shaastra.org',
             },
             {
-                id: 6,
+                id: 5,
                 title: "Research Conference",
                 url: 'https://symbiosis.shaastra.org',
             },
             {
-                id: 7,
+                id: 6,
                 title: 'Tech & Innovation Fair',
                 url:'/tif',
             }
@@ -54,13 +54,13 @@ export const items = [
             {
                 id: 1,
                 title: 'Shows',
-                url:'./',
+                url:'/shows',
             },
             {
                 id: 2,
                 title: 'Envisage',
                 url:'/envisage',
-            },
+            }
             // {
             // {    
                     // id: 3,
@@ -71,6 +71,11 @@ export const items = [
     },
     {
         id: 4,
+        title: 'Spotlight Lectures',
+        url:'/spotlight',
+    },
+    {
+        id: 5,
         title: 'Initiatives',
         url:'./',
         subitems: [
@@ -97,7 +102,7 @@ export const items = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: 'Passport',
         url:'https://sales.shaastra.org',
     },
@@ -107,18 +112,13 @@ export const items = [
     //     url:'https://hospitality.shaastra.org',
     // },
     {
-        id: 6,
+        id: 7,
         title: 'Sponsors',
         url:'/sponsors',
     },
     {
-        id: 7,
-        title: 'Team',
-        url:'/team',
-    },
-    {
         id: 8,
-        title: 'Contact Us',
-        url:'/contact',
+        title: 'Contact our team',
+        url:'/team',
     }
 ]

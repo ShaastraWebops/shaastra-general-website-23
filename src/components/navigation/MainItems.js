@@ -86,7 +86,7 @@ const MainItemsMob = ({items}) => {
           <DropdownMob key={items.id} subitemsmob={items.subitems} dropdownmob={dropdownmob}/>
         </>
       ) : (
-        <a href={items.url}>{items.title}</a>
+        <a href={items.url} target="_blank">{items.title}</a>
       )}
     </div>
   );

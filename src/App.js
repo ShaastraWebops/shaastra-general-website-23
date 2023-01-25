@@ -31,6 +31,17 @@ import Debunk from "./Components/debunk"
 import Temp from "./Components/tempHome";
 
 import Contact from "./Contact";
+import React, { useState, useEffect } from "react";
+import ReactGA from 'react-ga';
+
+import { Modal2 } from "./Components/Modal2";
+import { Container, ButtonModal } from "./Components/modalContainer";
+import Spotlight from "./Components/Spotlight";
+import Shows from "./Components/Shows";
+import Faq from "./Components/faq"
+
+const TRACKING_ID = "UA-42581770-14";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
@@ -69,6 +80,8 @@ function App() {
           <Route path="/admin/addevent" element={<AddEvent />} />
           <Route path="/admin/edit/:id" element={<EditEvent />} />
           <Route path="/socialendeavours" element={<Vastra />} />
+          <Route path="/blitzchess" element={<ChessBlitz />} />
+          <Route path="/faq" element={<Faq />} />
         </Routes>
       </Router>
     </div>

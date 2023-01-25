@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.spotlight{
+    min-height: 100% !important;
+    height: fit-content;
+    max-width: 100% !important;
+    overflow-y: scroll;
+    background: url('../Images/speakers bg3.jpg') no-repeat;
+    background-size: cover;
+}
+.spotlight-about{
+    margin: 5px 70px 15px 70px;
+    text-align: left;
+    color: rgb(234, 231, 236);
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+}
+.spotlight-container{
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    top: 0;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    place-items: center;
+    overflow: hidden;
+}
+.spotlight-content{
+    margin: 10px;
+    padding: auto;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-self: start;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.spotlight-content:hover {
+    transform: scale(1.05);
+}
+.spotlight-img{
+    height: 350px;
+    width: 350px;
+}
+.spotlight-content img{
+    border-radius: 10px;
+    height: 350px;
+    object-fit: cover;
+    width: 350px;
+}
+.spotlight-info{
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.spotlight-info h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.spotlight-info h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px){
+    .spotlight-about{
+        font-size: 20px;
+    }
+    .spotlight-info h2{
+        font-size: 18px;
+    }
+    .spotlight-info h3{
+        font-size: 15px;
+    }
+    .spotlight-img{
+        width:250px;
+        height: 250px;
+    }
+    .spotlight-content img{
+        width:250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 890px){
+    .signup-heading{
+        font-size: 35px;
+    }
+    .spotlight-about{
+        font-size: 16px;
+        margin: 0px 50px 15px 50px;
+    }
+    .spotlight-info h2{
+        font-size: 14px;
+    }
+    .spotlight-info h3{
+        font-size: 12px;
+    }
+    .spotlight-container{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 615px){
+    .spotlight-container{
+        grid-template-columns: auto;
+    }
+}
