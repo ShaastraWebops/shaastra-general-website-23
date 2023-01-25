@@ -7,7 +7,7 @@ import imgabout from "../Images/23_white logo-01.png";
 
 const Countdown = ({ pos }) => {
   const calculateTimeLeft = () => {
-    let difference = +new Date(`1/26/2023 9:00`) - +new Date();
+    let difference = +new Date(`1/26/2023 12:00`) - +new Date();
     let timeLeft = { days: 0, hrs: 0, mins: 0, secs: 0 };
 
     if (difference > 0) {
