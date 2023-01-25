@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/spotlight.css"
 import "../App.css";
+import vetri from "../Images/Vetrimaaran.png";
 import NavBar from './navigation/NavBar';
 import Footer from './Footer';
 import TopBar from './TopBar';
@@ -42,8 +43,16 @@ const Spotlight = () => {
               that Shaastra embodies.{" "}
             </div>
             <div className='spotlight-container'>
-
-                    
+                        <div className="spotlight-content">
+                            <div className='spotlight-img'>
+                            <img src={vetri} alt="" />
+                            </div>
+                            <div className='spotlight-info'>
+                                <h2>Mr. Vetri Maaran</h2>
+                                <h3>National Award winning Director <br />Producer and Writer</h3>
+                                <h3>26/01/2023 4pm</h3>
+                            </div>
+                        </div>
                         <div className="spotlight-content">
                             <div className='spotlight-img'>
                             <img src="https://www.pragyan.org/20/home/gl_and_crossfire/rajagopala_chidambaram/rajagopala_chidambaram.jpg" alt="" />
@@ -64,16 +73,6 @@ const Spotlight = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="spotlight-content">
-                            <div className='spotlight-img'>
-                            <img src="https://pbs.twimg.com/profile_images/1473706332104663048/mYM4x-7Q_400x400.jpg" alt="" />
-                            </div>
-                            <div className='spotlight-info'>
-                                <h2>Mr. Vetri Maaran</h2>
-                                <h3>CEO, Sugar Cosmetics <br /> Judge at Shark Tank</h3>
-                                <h3>27/01/2023 4pm</h3>
-                            </div>
-                        </div> */}
                         <div className="spotlight-content">
                             <div className='spotlight-img'>
                             <img src="https://pbs.twimg.com/profile_images/1473706332104663048/mYM4x-7Q_400x400.jpg" alt="" />
