@@ -42,8 +42,9 @@ import { Modal2 } from "./components/Modal2";
 import { Container, ButtonModal } from "./components/modalContainer";
 import Spotlight from "./components/Spotlight";
 import Shows from "./components/Shows";
+import Faq from "./components/faq"
 
-const TRACKING_ID = "UA-220438183-5";
+const TRACKING_ID = "UA-42581770-14";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
@@ -99,6 +100,7 @@ function App() {
           {/* <Route path="/pay/:id" element={<PayRegister />} /> */}
           <Route path="/socialendeavours" element={<Vastra />} />
           <Route path="/blitzchess" element={<ChessBlitz />} />
+		  <Route path="/faq" element={<Faq/>}/>
         </Routes>
         {auth === "admin" && (
           <Routes>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.97c185f5.css",
-    "main.js": "/static/js/main.727bb9e2.js",
+    "main.css": "/static/css/main.a5714c15.css",
+    "main.js": "/static/js/main.22f25f1c.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/Vetrimaaran.png": "/static/media/Vetrimaaran.7067019c6a510f769f84.png",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
@@ -95,7 +95,6 @@
     "static/media/bg2.jpg": "/static/media/bg2.3ef707a07dd269f6c79d.jpg",
     "static/media/specsmakers.png": "/static/media/specsmakers.0c7ccc0c57724197d3e1.png",
     "static/media/Neorah Logo Png.png": "/static/media/Neorah Logo Png.33e77f2f9963a5f1b837.png",
-    "static/media/sketchers2.png": "/static/media/sketchers2.ea1b1a2d61e32d205d51.png",
     "static/media/eandw_hema.jpeg": "/static/media/eandw_hema.5fa8dfb3877d32667cc9.jpeg",
     "static/media/m-mouser-electronics-process-white.png": "/static/media/m-mouser-electronics-process-white.80788977cee49a7122ce.png",
     "static/media/dr arun.png": "/static/media/dr arun.1377d9e7466bf67f2d35.png",
@@ -113,6 +112,7 @@
     "static/media/envisage.jpeg": "/static/media/envisage.b6c2d9a864fc645356d7.jpeg",
     "static/media/Wedtree Logo (1) copy.png": "/static/media/Wedtree Logo (1) copy.649cc9605ea8df47849e.png",
     "static/media/SLBlight.png": "/static/media/SLBlight.5c4ec1234ba8ce6e366a.png",
+    "static/media/sketchers2.jpg": "/static/media/sketchers2.3fb264e26bd1957820eb.jpg",
     "static/media/dataleads.png": "/static/media/dataleads.fed35e26de64a2b0c942.png",
     "static/media/games-logo.jpeg": "/static/media/games-logo.e5140d3ce4f0f56fba56.jpeg",
     "static/media/wellsfargo.jpg": "/static/media/wellsfargo.a15a36b032ee7b4c4e6a.jpg",
@@ -139,12 +139,12 @@
     "static/media/Codechef logo.png": "/static/media/Codechef logo.e2c38bb54ad491bd3034.png",
     "index.html": "/index.html",
     "static/media/GFG-gg-logo.svg": "/static/media/GFG-gg-logo.89169b2837963ab7f7454736c7adb718.svg",
-    "main.97c185f5.css.map": "/static/css/main.97c185f5.css.map",
-    "main.727bb9e2.js.map": "/static/js/main.727bb9e2.js.map",
+    "main.a5714c15.css.map": "/static/css/main.a5714c15.css.map",
+    "main.22f25f1c.js.map": "/static/js/main.22f25f1c.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97c185f5.css",
-    "static/js/main.727bb9e2.js"
+    "static/css/main.a5714c15.css",
+    "static/js/main.22f25f1c.js"
   ]
 }

@@ -63,7 +63,7 @@ import img81 from "../Images/Abati-Logo.png";
 import img82 from "../Images/chennaigrowmore.png";
 import img83 from "../Images/Hiker Wolf.png";
 import img84 from "../Images/tattoo-nobg.png";
-import img85 from "../Images/sketchers2.png";
+import img85 from "../Images/sketchers2.jpg";
 
 import "../styles/styles.css"
 
