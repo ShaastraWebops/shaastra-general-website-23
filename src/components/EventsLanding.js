@@ -80,7 +80,7 @@ function EventsLanding() {
                 text-anchor="middle"
                 y="50%"
               >
-                EVENTS
+                COMPETITIONS
               </text>
             </svg>
 
@@ -93,7 +93,7 @@ function EventsLanding() {
                     .scrollIntoView({ behavior: "smooth" })
                 }
               >
-                Explore Events{" "}
+                Explore Competitions{" "}
               </button>{" "}
             </div>
           </div>

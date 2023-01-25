@@ -61,6 +61,11 @@ export const items = [
                 title: 'Envisage',
                 url:'/envisage',
             },
+            {
+                id: 3,
+                title: 'Spotlight',
+                url:'/spotlight',
+            }
             // {
             // {    
                     // id: 3,
