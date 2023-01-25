@@ -16,9 +16,9 @@ const Events = ({pos}) => {
             transform: 'translateZ('+pos+'px)',
             
             }}>
-            <div className="events-heading">
+            {/* <div className="events-heading">
                 EVENT HIGHLIGHTS
-            </div>
+            </div> */}
             <div>
                 <img src={rave}></img>
             </div>
