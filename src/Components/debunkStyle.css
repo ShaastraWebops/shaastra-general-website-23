@@ -1,0 +1,137 @@
+.debunk-section {
+    background-color: black;
+}
+
+.banner {
+    background: url(../brain.jpg) no-repeat center center;
+    background-size: cover;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.aboutdebunk {
+    width: 75%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.aboutdebunk,
+.debin .debin2 {
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 20;
+    padding-bottom: 100px;
+}
+
+
+
+.debunkinit {
+    color: white;
+    text-align: left;
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: #993094;
+    font-size: 16;
+}
+
+
+
+#debimg1 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: url(../themereveal.jpg) no-repeat center;
+    background-size: 40%;
+    border-radius: 100%;
+}
+
+#debimg2 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: url(../unnamed.jpg) no-repeat center;
+    background-size: 40%;
+    border-radius: 100%;
+}
+
+
+h3 {
+    font-style: italic;
+    text-indent: 2em;
+    margin-top: -20px;
+}
+
+
+@media (max-width: 960px) {
+
+    p {
+        font-size: 12px;
+    }
+
+    .aboutdebunk h2 {
+        font-size: 2.5rem;
+    }
+
+    .debunkinit {
+
+        font-size: 2.5rem;
+
+    }
+}
+
+@media (max-width: 800px) {
+
+    p {
+        font-size: 10px;
+    }
+
+    .aboutdebunk h2 {
+        font-size: 2rem;
+    }
+
+    .debunkinit {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .banner {
+        height: 30vh;
+
+    }
+}
+
+.debin {
+    margin-bottom: 20px !important;
+    flex-direction: column !important;
+
+}
+
+#debimg1 {
+    width: 100% !important;
+    height: 160px;
+    margin: 0 !important;
+}
+
+#debimg2 {
+    width: 100% !important;
+    height: 160px;
+    margin: 0 !important;
+}
+
+
+.debin2 {
+    flex-direction: column-reverse !important;
+}

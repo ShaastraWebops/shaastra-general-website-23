@@ -1,8 +1,9 @@
 body {
   width: 100vw;
-  height: 150vh!important;
+  height: 150vh !important;
 }
-.signup_form{
+
+.signup_form {
   height: 100vh;
 }
 
@@ -53,6 +54,7 @@ body {
   padding-top: 5vh;
   z-index: 3;
 }
+
 
 .signup-heading text {
   position: relative;
@@ -788,15 +790,15 @@ body {
   border-radius: 50%;
 }
 
-.page  div{
+.page div {
   position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    user-select: none;
-    z-index: 20;
-    /* filter: drop-shadow(0px 0px 3px white); */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  user-select: none;
+  z-index: 20;
+  /* filter: drop-shadow(0px 0px 3px white); */
 }
 
 @keyframes mymove1 {

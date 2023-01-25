@@ -1,3 +1,6 @@
+import { MdImportantDevices } from "react-icons/md";
+import '../styles.css';
+
 const Spiral = ({colour, colour2, pos, }) =>
 {
 

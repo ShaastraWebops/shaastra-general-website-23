@@ -152,7 +152,7 @@
 .events-heading {
     font-size: 60px;
     font-weight: 700;
-    color: #fff;
+    color: #fff !important;
     margin-top: 20px;
 }
 
