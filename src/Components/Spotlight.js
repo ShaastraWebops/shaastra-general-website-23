@@ -20,7 +20,7 @@ const Spotlight = () => {
     return(
         <body>
             <NavBar/>
-            {/* <TopBar/> */}
+            <TopBar/>
             <div className='spotlight'>
             <svg class="signup-heading">
               <text

@@ -60,11 +60,6 @@ export const items = [
                 id: 2,
                 title: 'Envisage',
                 url:'/envisage',
-            },
-            {
-                id: 3,
-                title: 'Spotlight',
-                url:'/spotlight',
             }
             // {
             // {    
@@ -76,6 +71,11 @@ export const items = [
     },
     {
         id: 4,
+        title: 'Spotlight Lectures',
+        url:'/spotlight',
+    },
+    {
+        id: 5,
         title: 'Initiatives',
         url:'./',
         subitems: [
@@ -102,7 +102,7 @@ export const items = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: 'Passport',
         url:'https://sales.shaastra.org',
     },
@@ -112,12 +112,12 @@ export const items = [
     //     url:'https://hospitality.shaastra.org',
     // },
     {
-        id: 6,
+        id: 7,
         title: 'Sponsors',
         url:'/sponsors',
     },
     {
-        id: 7,
+        id: 8,
         title: 'Contact our team',
         url:'/team',
     }
