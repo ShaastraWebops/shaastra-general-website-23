@@ -24,18 +24,18 @@
 }
 
 .aboutdebunk,
-.debin .debin2 {
+.deb-inits-1 .deb-inits-2 {
     margin: auto;
     color: white;
     text-align: center;
     background-color: black;
     font-size: 20;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 
 
-.debunkinit {
+.deb-inits{
     color: white;
     text-align: left;
     width: 75%;
@@ -43,7 +43,7 @@
 }
 
 h2 {
-    color: #993094;
+    color: #e80edddb;
     font-size: 16;
 }
 
@@ -53,25 +53,75 @@ h2 {
     padding-top: 10%;
     padding-bottom: 10%;
     background: url(../themereveal.jpg) no-repeat center;
-    background-size: 40%;
-    border-radius: 100%;
+
+
 }
 
 #debimg2 {
     padding-top: 10%;
     padding-bottom: 10%;
     background: url(../unnamed.jpg) no-repeat center;
-    background-size: 40%;
-    border-radius: 100%;
+
+
+}
+.imgcont{
+   display: flex;
+   /* margin-bottom: 50px; */
+   height: 40vh;
 }
 
+.deb-news-img1{
+    margin-right: 50px;
 
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 185%;
+    background: url(../news1.png) no-repeat ;
+
+}
+.deb-news-img2{
+
+    background: url(../news2.png) no-repeat center;
+background-size: 90%;
+   width: 200%;
+   height: 100%;
+}
+.deb-news-img3{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: url(../news3.jpeg) no-repeat center;
+ background-size: 45%;
+    width: 200%;
+    border-radius: 50px;
+}
+.aifcb-img {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: url(../aifcimg.png) no-repeat center;
+  background-size: 30%;
+   height: 40vh;
+   border-radius: 20%;
+}
+section{
+    padding-bottom: 5vh;
+}
+.facts{
+margin-bottom: 15px;
+}
+.theme{
+    width:250px;
+    margin-top: 0;
+    padding-left: 0;
+}
 h3 {
     font-style: italic;
-    text-indent: 2em;
+   padding-bottom: 1vh;
     margin-top: -20px;
 }
-
+p{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
 
 @media (max-width: 960px) {
 
@@ -83,7 +133,7 @@ h3 {
         font-size: 2.5rem;
     }
 
-    .debunkinit {
+    .deb-inits {
 
         font-size: 2.5rem;
 
@@ -100,7 +150,7 @@ h3 {
         font-size: 2rem;
     }
 
-    .debunkinit {
+    .deb-inits {
         font-size: 2rem;
     }
 }
@@ -132,6 +182,6 @@ h3 {
 }
 
 
-.debin2 {
+.deb-inits-2 {
     flex-direction: column-reverse !important;
 }
