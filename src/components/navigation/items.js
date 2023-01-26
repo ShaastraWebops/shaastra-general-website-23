@@ -87,7 +87,7 @@ export const items = [
             {
                     id: 2,
                 title: 'Debunk',
-                url:'./',
+                url:'/debunk',
             },
             // {
                     // id: 3,
