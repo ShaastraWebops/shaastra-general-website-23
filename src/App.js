@@ -29,6 +29,7 @@ import Contact from "./Contact";
 import Spotlight from "./components/Spotlight";
 import Shows from "./components/Shows";
 import React from "react";
+import Schedule from "./components/Schedule";
 import ReactGA from 'react-ga';
 
 
@@ -57,6 +58,7 @@ function App() {
           <Route path="/spotlight" element={<Spotlight />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
           <Route path="/shows" element={<Shows />}/>
+          <Route path="/schedule" element={<Schedule />}/>
           {/* <Route path="/debunk" element={<Debunk />} /> */}
           <Route
             path="/forgotpassword/resetpassword"

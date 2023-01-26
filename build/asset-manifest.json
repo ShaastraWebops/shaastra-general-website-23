@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5714c15.css",
-    "main.js": "/static/js/main.22f25f1c.js",
+    "main.css": "/static/css/main.b75eab5c.css",
+    "main.js": "/static/js/main.bca03866.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/Vetrimaaran.png": "/static/media/Vetrimaaran.7067019c6a510f769f84.png",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
@@ -15,6 +15,7 @@
     "static/media/image2.png": "/static/media/image2.5c9a56ef4351a62bb43f.png",
     "static/media/banner.jpg": "/static/media/banner.663155b4792d6b56d520.jpg",
     "static/media/bg.png": "/static/media/bg.36cfe1d16b4caa05229d.png",
+    "static/media/meta4 1.png": "/static/media/meta4 1.a7572d9be3c778646137.png",
     "static/media/i6.png": "/static/media/i6.174dc1f9e585c1b92069.png",
     "static/media/i8.png": "/static/media/i8.88d7919ac4609dd3b3bc.png",
     "static/media/evolve_mahboob.jpeg": "/static/media/evolve_mahboob.eafce6336bf7bfee5ca0.jpeg",
@@ -139,12 +140,12 @@
     "static/media/Codechef logo.png": "/static/media/Codechef logo.e2c38bb54ad491bd3034.png",
     "index.html": "/index.html",
     "static/media/GFG-gg-logo.svg": "/static/media/GFG-gg-logo.89169b2837963ab7f7454736c7adb718.svg",
-    "main.a5714c15.css.map": "/static/css/main.a5714c15.css.map",
-    "main.22f25f1c.js.map": "/static/js/main.22f25f1c.js.map",
+    "main.b75eab5c.css.map": "/static/css/main.b75eab5c.css.map",
+    "main.bca03866.js.map": "/static/js/main.bca03866.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5714c15.css",
-    "static/js/main.22f25f1c.js"
+    "static/css/main.b75eab5c.css",
+    "static/js/main.bca03866.js"
   ]
 }

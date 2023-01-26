@@ -36,7 +36,7 @@ export const items = [
             },
             {
                 id: 5,
-                title: "Research Conference",
+                title: "Symbiosis '23",
                 url: 'https://symbiosis.shaastra.org',
             },
             {
