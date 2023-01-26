@@ -84,11 +84,11 @@ export const items = [
                 title: 'Vastra',
                 url:'/socialendeavours',
             },
-            // {
-                    // id: 2,
-            //     title: 'Debunk',
-            //     url:'./',
-            // },
+            {
+                    id: 2,
+                title: 'Debunk',
+                url:'./',
+            },
             // {
                     // id: 3,
             //     title: 'Schools',
