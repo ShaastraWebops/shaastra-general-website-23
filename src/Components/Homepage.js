@@ -175,8 +175,8 @@ const Homepage=()=> {
           {/* <div className='text-phrase' onClick={()=>window.open("./Workshops")}>
             <h3>Enroll for workshops now!</h3>
           </div> */}
-          <div className='acco-phrase' onClick={()=>window.open("https://hospitality.shaastra.org/")}>
-            <h3>Accomodation</h3>
+          <div className='acco-phrase'>
+            <h3>Accomodation closed!</h3>
           </div>
           {/* <div className='tap-phrase' >
             Tap to see more!
