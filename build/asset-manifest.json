@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.266e79d1.css",
-    "main.js": "/static/js/main.b41bf58e.js",
+    "main.css": "/static/css/main.58928213.css",
+    "main.js": "/static/js/main.4b2abda9.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/Vetrimaaran.png": "/static/media/Vetrimaaran.7067019c6a510f769f84.png",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
@@ -56,6 +56,7 @@
     "static/media/webops_krithikaa.jpeg": "/static/media/webops_krithikaa.d963c9091d931c880657.jpeg",
     "static/media/image1.jpg": "/static/media/image1.fdd86c3e09dca53a4309.jpg",
     "static/media/sande_sauban.jpeg": "/static/media/sande_sauban.61f0533dc90cd790af6e.jpeg",
+    "static/media/ak-logo.png": "/static/media/ak-logo.b3fda964bd75a209d234.png",
     "static/media/eandw_nithin.jpeg": "/static/media/eandw_nithin.9e30fed4a57a6eb0bd3d.jpeg",
     "static/media/Flipkartlogo.png": "/static/media/Flipkartlogo.b70dd0f01f07ad5e41e4.png",
     "static/media/FPJ Logo .png": "/static/media/FPJ Logo .c2635daa90519dee4aa3.png",
@@ -71,7 +72,6 @@
     "static/media/bg4.jpg": "/static/media/bg4.e12497568cf721024203.jpg",
     "static/media/sandp_anushka.jpeg": "/static/media/sandp_anushka.cf6f9e1057419ceb0d21.jpeg",
     "static/media/GalaxEye.png": "/static/media/GalaxEye.2910653573492e135aa8.png",
-    "static/media/ak.png": "/static/media/ak.796fc0b310cf19798b31.png",
     "static/media/finance_soumya.jpg": "/static/media/finance_soumya.8ab9fdd40d16abc1b462.jpg",
     "static/media/brain.jpg": "/static/media/brain.1330fafa42a588de581d.jpg",
     "static/media/sandp_saicharan.jpeg": "/static/media/sandp_saicharan.a1e069f4928b51dc6a67.jpeg",
@@ -143,16 +143,15 @@
     "static/media/background.jpg": "/static/media/background.075a0aede306830a5f36.jpg",
     "static/media/Ansys white.png": "/static/media/Ansys white.dd16586107c429d94a3e.png",
     "static/media/iris 2 (2).png": "/static/media/iris 2 (2).e2f1d97d7b40aabea184.png",
-    "static/media/speakers bg3.jpg": "/static/media/speakers bg3.347630f7a5be93f0de98.jpg",
     "static/media/Codechef logo.png": "/static/media/Codechef logo.e2c38bb54ad491bd3034.png",
     "index.html": "/index.html",
-    "static/media/GFG-gg-logo.svg": "/static/media/GFG-gg-logo.da26810712ce67a347c2384c8b8e150d.svg",
-    "main.266e79d1.css.map": "/static/css/main.266e79d1.css.map",
-    "main.b41bf58e.js.map": "/static/js/main.b41bf58e.js.map",
+    "static/media/GFG-gg-logo.svg": "/static/media/GFG-gg-logo.89169b2837963ab7f7454736c7adb718.svg",
+    "main.58928213.css.map": "/static/css/main.58928213.css.map",
+    "main.4b2abda9.js.map": "/static/js/main.4b2abda9.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.266e79d1.css",
-    "static/js/main.b41bf58e.js"
+    "static/css/main.58928213.css",
+    "static/js/main.4b2abda9.js"
   ]
 }

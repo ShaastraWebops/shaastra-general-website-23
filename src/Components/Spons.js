@@ -55,7 +55,7 @@ import img73 from "../Images/V20_Cricket_Banner.png";
 import img74 from "../Images/Abs-(illustrator).png";
 import img75 from "../Images/FPJ Logo .png";
 import img76 from "../Images/Chaos_Entertainment.png";
-import img77 from "../Images/ak.png";
+import img77 from "../Images/ak-logo.png";
 import img78 from "../Images/ME_imprint_land_cmyk.png";
 import img79 from "../Images/specsmakers.png";
 import img80 from "../Images/asus-blackbg.png";

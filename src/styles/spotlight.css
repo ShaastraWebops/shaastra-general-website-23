@@ -5,7 +5,8 @@
     height: fit-content;
     max-width: 100% !important;
     overflow-y: scroll;
-    background: url('../Images/speakers bg3.jpg') no-repeat;
+    background: url('../Images/speakers bg4.jpg') no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.257);
     background-size: cover;
 }
 .spotlight-about{
@@ -56,15 +57,23 @@
     width: 350px;
 }
 .spotlight-info{
-    margin-top: 30px;
+    /* height: 170px; */
+    margin-top: 20px;
     text-align: center;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
 }
 .spotlight-info h2{
+    padding: 10px;
     font-size: 20px;
     font-weight: 600;
+    color: #e80edddb;
+    /* color: #e1ff00; */
 }
 .spotlight-info h3{
+    padding: 10px;
     font-size: 18px;
     font-weight: 500;
 }
