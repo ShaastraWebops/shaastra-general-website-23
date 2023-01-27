@@ -56,6 +56,7 @@ function WorkshopsLanding() {
 
   if (data) {
     var arr = data?.getEvents?.events
+    const today = new Date()
     const sortByDate = arr => {
        const sorter = (a, b) => {
         var dateA = moment(parseInt(a.registrationCloseTime)).clone().tz("Europe/London").format().replace('T', '@').split("@")[0]
@@ -66,6 +67,10 @@ function WorkshopsLanding() {
       return arr.slice().sort(sorter);
     };
     arr = sortByDate(arr);
+    arr = arr.filter(el => {
+      const elDate = new Date(moment(parseInt(el.registrationCloseTime))._d)
+      return elDate > today
+    });
     console.log(arr);
     return (
       <body>
