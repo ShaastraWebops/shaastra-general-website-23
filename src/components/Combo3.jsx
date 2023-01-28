@@ -7,6 +7,7 @@ import nextImage from "../assets/next.png";
 import { useMutation } from "@apollo/client";
 import { gql } from "@apollo/client";
 import React from "react";
+import moment from 'moment'
 import { useNavigate } from "react-router-dom";
 import {
   ChakraProvider,
@@ -113,9 +114,11 @@ function Combo({ events }) {
     },
   ] = useMutation(PAY);
 
-  const filterEvents = events.filter(
-    (event) => event.registrationfee === "500"
-  );
+  const today = new Date()
+  const filterEvents= events.filter((event)=> event.registrationfee==="500").filter(el => {
+    const elDate = new Date(moment(parseInt(el.registrationCloseTime))._d)
+    return elDate.getDate() > today.getDate()
+  });;
   // console.log(ws1);
   // console.log(filterEvents);
 

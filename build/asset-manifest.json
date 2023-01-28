@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.58928213.css",
-    "main.js": "/static/js/main.7486b666.js",
+    "main.css": "/static/css/main.b9480548.css",
+    "main.js": "/static/js/main.5b163d1a.js",
     "static/js/377.a49414a6.chunk.js": "/static/js/377.a49414a6.chunk.js",
     "static/media/Vetrimaaran.png": "/static/media/Vetrimaaran.7067019c6a510f769f84.png",
     "static/media/i2.png": "/static/media/i2.60e1a55f5f8978501491.png",
@@ -145,13 +145,13 @@
     "static/media/iris 2 (2).png": "/static/media/iris 2 (2).e2f1d97d7b40aabea184.png",
     "static/media/Codechef logo.png": "/static/media/Codechef logo.e2c38bb54ad491bd3034.png",
     "index.html": "/index.html",
-    "static/media/GFG-gg-logo.svg": "/static/media/GFG-gg-logo.89169b2837963ab7f7454736c7adb718.svg",
-    "main.58928213.css.map": "/static/css/main.58928213.css.map",
-    "main.7486b666.js.map": "/static/js/main.7486b666.js.map",
+    "static/media/GFG-gg-logo.svg": "/static/media/GFG-gg-logo.da26810712ce67a347c2384c8b8e150d.svg",
+    "main.b9480548.css.map": "/static/css/main.b9480548.css.map",
+    "main.5b163d1a.js.map": "/static/js/main.5b163d1a.js.map",
     "377.a49414a6.chunk.js.map": "/static/js/377.a49414a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58928213.css",
-    "static/js/main.7486b666.js"
+    "static/css/main.b9480548.css",
+    "static/js/main.5b163d1a.js"
   ]
 }
