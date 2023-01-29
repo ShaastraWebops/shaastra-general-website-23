@@ -82,9 +82,10 @@ function loadScript(src) {
   });
 }
 
-function CardComponent({data: el}){
+function CardComponent({data: el, submit: submit}){
    let [triggerModal,setTriggerModal] = useState(false);
    var { isOpen, onOpen, onClose } = useDisclosure();
+   var { isOpen: isOpen1, onOpen: onOpen1, onClose: onClose1} = useDisclosure();
    const [members, setMembers] = React.useState([""]);
    const [teamname, setTeamname] = React.useState("");
 
@@ -274,7 +275,10 @@ function CardComponent({data: el}){
           }}>Know more</Button>
           <Button className="register" onClick={async () => {
             console.log(el?.registrationfee)
-            if(el?.registrationfee === "0" || el?.id === "clcey3ysk001ey1oz1z0g43y4" || el?.id === "cld19m7gr005xiloz5t1k3tcb")
+            if (submit === false) {
+              onOpen1()
+            }
+            else if(el?.registrationfee === "0" || el?.id === "clcey3ysk001ey1oz1z0g43y4" || el?.id === "cld19m7gr005xiloz5t1k3tcb")
             {
               window.location.href = el?.requirements
             }
@@ -304,6 +308,15 @@ function CardComponent({data: el}){
           }
           }} >Register</Button> 
           </div>
+          <ChakraProvider>
+            <Modal isOpen={isOpen1} onClose={onClose1}>
+              <ModalOverlay />
+              <ModalContent color="black">
+                <ModalHeader>Registrations Closed</ModalHeader>
+                <ModalCloseButton />
+              </ModalContent>
+            </Modal>
+          </ChakraProvider>
           <ChakraProvider>
               <Modal
                 isOpen={isOpen}

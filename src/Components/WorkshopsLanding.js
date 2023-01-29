@@ -67,10 +67,6 @@ function WorkshopsLanding() {
       return arr.slice().sort(sorter);
     };
     arr = sortByDate(arr);
-    arr = arr.filter(el => {
-      const elDate = new Date(moment(parseInt(el.registrationCloseTime))._d)
-      return elDate > today
-    });
     console.log(arr);
     return (
       <body>
@@ -117,7 +113,9 @@ function WorkshopsLanding() {
             <div className="wrapper">
               {arr.map((el) => {
                 console.log(el);
-                return <CardComponent data={el} key={el.id} />;
+                const elDate = new Date(moment(parseInt(el.registrationCloseTime))._d)
+                if (elDate > today) return <CardComponent data={el} key={el.id} submit={true}/>;
+                else return <CardComponent data={el} key={el.id} submit={false} />
               })}
             </div>
           </div>
