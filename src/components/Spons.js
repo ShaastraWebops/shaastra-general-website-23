@@ -273,7 +273,7 @@ const Spons = () => {
                                 <h2 className="title-1">Workshop Sponsor</h2>
                             </div>
                         </a>
-                        <a href="./">
+                        <a href="https://akshayakalpa.org/">
                             <div className="cards-events1">
                                 <img src={img77} alt="" className='imp-spons1' style={{height:"100px"}}/>
                                 <h2 className="title-1">Health Partner</h2>
